@@ -177,6 +177,8 @@ La pérdida de control sobre datos expuestos puede dificultar el ejercicio efect
 
 ## Conclusión
 
-El incidente del Estado Mayor Conjunto no solo generó consecuencias relacionadas con seguridad informática, sino también riesgos asociados a la protección de datos personales. La posible exposición de información de funcionarios demuestra la importancia de implementar mecanismos adecuados para proteger la privacidad y garantizar el ejercicio de los derechos establecidos por la Ley Nº 19.628.
+El análisis del tratamiento de datos personales en el caso del Estado Mayor Conjunto permite comprender la importancia que tiene la protección de la información dentro de las organizaciones, especialmente cuando se administra información institucional y datos asociados a personas. La filtración ocurrida durante el incidente demuestra que la exposición de información puede generar consecuencias que afectan tanto la privacidad como la seguridad de los individuos involucrados.
 
-La gestión adecuada de datos personales constituye un elemento fundamental para reducir el impacto de futuros incidentes de ciberseguridad y fortalecer la confianza en las instituciones públicas.
+La clasificación entre datos personales y datos sensibles resulta fundamental debido a que ciertos tipos de información requieren mayores niveles de protección y control. Asimismo, los derechos ARCO permiten que las personas mantengan cierto grado de control sobre el uso y tratamiento de sus datos, contribuyendo a proteger su privacidad y evitar usos indebidos.
+
+Finalmente, este caso evidencia que la protección de datos no debe considerarse únicamente como una obligación legal, sino también como una medida esencial para fortalecer la confianza, la seguridad y la adecuada gestión de la información dentro de las instituciones.
