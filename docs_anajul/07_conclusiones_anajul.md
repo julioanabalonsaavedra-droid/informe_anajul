@@ -113,8 +113,8 @@ La adopción de marcos como ISO/IEC 27001 puede fortalecer la gestión de seguri
 
 ## Reflexión final
 
-El caso del Estado Mayor Conjunto constituye uno de los incidentes de ciberseguridad más relevantes ocurridos en Chile debido al volumen de información comprometida y a las posibles consecuencias derivadas de la exposición de datos institucionales.
+El desarrollo de este análisis permitió comprender que la ciberseguridad representa un desafío cada vez más importante para organizaciones públicas y privadas debido al aumento constante de amenazas digitales y a la sofisticación de los ataques informáticos actuales. El caso del Estado Mayor Conjunto evidencia que incluso instituciones encargadas de administrar información crítica pueden verse afectadas por vulnerabilidades y fallas en sus sistemas de protección.
 
-Este incidente demuestra que la seguridad informática no depende únicamente de herramientas tecnológicas, sino también de procesos, políticas y personas responsables de administrar la información.
+Además, el estudio del caso permitió identificar la estrecha relación existente entre aspectos tecnológicos y legales, demostrando que un incidente informático no solo genera consecuencias técnicas, sino también responsabilidades legales, riesgos asociados a la protección de datos y efectos que pueden impactar a diversas personas e instituciones.
 
-La evolución constante de amenazas digitales exige que organizaciones públicas y privadas adopten una cultura de seguridad preventiva, considerando aspectos técnicos, legales y organizacionales para proteger adecuadamente la información y reducir riesgos futuros.
+Finalmente, resulta fundamental comprender que la seguridad informática no depende únicamente de herramientas tecnológicas avanzadas, sino también de la implementación de políticas adecuadas, capacitación continua y una cultura organizacional orientada a la prevención. Fortalecer estos elementos permite reducir riesgos y enfrentar de mejor manera futuras amenazas digitales.
