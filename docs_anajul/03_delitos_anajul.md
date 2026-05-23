@@ -117,6 +117,9 @@ La afectación de servicios críticos puede comprometer la disponibilidad de sis
 
 ## Conclusión
 
-El análisis del caso permite observar que las acciones atribuidas a los atacantes podrían asociarse a diversos delitos informáticos contemplados en la Ley Nº 21.459. Entre ellos destacan el acceso ilícito a sistemas, la interceptación de comunicaciones y las acciones que afectan la integridad de datos y sistemas informáticos.
+El análisis del ataque informático al Estado Mayor Conjunto (EMCO) permite identificar que las acciones realizadas por los atacantes podrían relacionarse con distintos delitos establecidos en la Ley Nº 21.459 sobre Delitos Informáticos. Entre las conductas observadas destacan el acceso ilícito a sistemas, la obtención no autorizada de información y la afectación de datos almacenados digitalmente, acciones que generan consecuencias relevantes tanto a nivel tecnológico como legal.
 
-La existencia de múltiples conductas dentro de un mismo incidente evidencia la complejidad de los ataques cibernéticos actuales y la necesidad de contar con legislación especializada que permita investigar y sancionar este tipo de hechos.
+Este caso demuestra que los incidentes de ciberseguridad actuales pueden involucrar múltiples delitos dentro de un mismo evento, afectando la confidencialidad, integridad y disponibilidad de la información. Además, evidencia la importancia de que las instituciones, especialmente aquellas que administran información crítica o estratégica, implementen medidas preventivas y mecanismos de seguridad adecuados para reducir vulnerabilidades y proteger sus sistemas frente a amenazas cada vez más sofisticadas.
+
+Finalmente, la existencia de legislación especializada permite establecer responsabilidades y entregar herramientas legales que faciliten la investigación y sanción de este tipo de conductas, fortaleciendo así la protección de los sistemas informáticos y la seguridad digital.
+
