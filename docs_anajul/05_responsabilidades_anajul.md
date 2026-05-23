@@ -105,6 +105,8 @@ Dependiendo de las circunstancias específicas, podrían existir responsabilidad
 
 ## Conclusión
 
-El caso del Estado Mayor Conjunto evidencia que los incidentes de ciberseguridad pueden generar responsabilidades para múltiples actores y no únicamente para quienes ejecutan el ataque. Mientras los atacantes podrían enfrentar consecuencias penales por delitos informáticos, las instituciones y responsables tecnológicos también poseen obligaciones relacionadas con la protección de la información y la implementación de medidas de seguridad adecuadas.
+El análisis de las responsabilidades legales en el caso del ataque al Estado Mayor Conjunto permite observar que un incidente de ciberseguridad no afecta únicamente a quienes ejecutan el ataque, sino también a las instituciones y personas encargadas de proteger la información y administrar los sistemas tecnológicos. Cada actor involucrado posee obligaciones y responsabilidades específicas que pueden generar consecuencias legales dependiendo de sus acciones u omisiones.
 
-La correcta identificación de responsabilidades resulta fundamental para determinar consecuencias legales y prevenir futuros incidentes similares.
+En este caso, los atacantes podrían enfrentar responsabilidades penales debido a conductas asociadas a delitos informáticos, mientras que la institución afectada y los responsables de la gestión tecnológica poseen obligaciones relacionadas con la implementación de medidas de seguridad, protección de datos y prevención de riesgos. La existencia de debilidades en controles o procedimientos puede aumentar el impacto de un incidente y generar responsabilidades adicionales.
+
+Finalmente, este caso demuestra la importancia de establecer políticas de seguridad claras, fortalecer mecanismos de protección y promover una cultura organizacional orientada a la prevención, ya que una adecuada gestión de responsabilidades contribuye significativamente a reducir riesgos y proteger la información crítica de las organizaciones.
