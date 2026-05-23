@@ -68,6 +68,8 @@ El incidente analizado presenta elementos que permiten aplicar múltiples marcos
 
 ## Conclusión
 
-El análisis comparativo demuestra que ningún marco regulatorio por sí solo permite abordar completamente un incidente de ciberseguridad complejo. Mientras la legislación chilena permite identificar delitos y responsabilidades, los acuerdos y estándares internacionales complementan la prevención, investigación y gestión de riesgos.
+La comparación entre los distintos marcos regulatorios permite observar que cada normativa cumple una función específica frente a incidentes de ciberseguridad. Mientras la Ley Nº 21.459 se enfoca en identificar y sancionar delitos informáticos, la Ley Nº 19.628 busca proteger los datos personales y la privacidad de los individuos. Por otra parte, el Convenio de Budapest y estándares internacionales como ISO/IEC 27001 complementan la respuesta frente a amenazas digitales mediante cooperación internacional y medidas preventivas de seguridad.
 
-En el caso del Estado Mayor Conjunto, la combinación de regulaciones nacionales e internacionales resulta necesaria para enfrentar adecuadamente las consecuencias derivadas del incidente.
+El análisis del caso del Estado Mayor Conjunto demuestra que un incidente informático no puede abordarse desde una única perspectiva legal o técnica, debido a que sus consecuencias afectan múltiples áreas de una organización. La combinación de marcos nacionales e internacionales permite una respuesta más completa, facilitando la identificación de responsabilidades, la protección de información sensible y la implementación de mecanismos de prevención.
+
+Finalmente, la evolución constante de las amenazas cibernéticas hace necesario que las organizaciones adopten un enfoque integral de seguridad, considerando aspectos legales, tecnológicos y organizacionales para disminuir riesgos y fortalecer la protección de sus sistemas e información.
