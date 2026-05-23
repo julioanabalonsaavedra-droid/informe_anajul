@@ -110,4 +110,5 @@ La existencia de vulnerabilidades explotadas por los atacantes podría indicar d
 
 ## Conclusión
 
+
 El caso del ataque al Estado Mayor Conjunto involucra diversos marcos normativos debido a la complejidad de los hechos y a las consecuencias derivadas del incidente. Mientras las leyes chilenas permiten determinar responsabilidades y proteger datos personales, las normas y acuerdos internacionales complementan la investigación y la implementación de medidas de seguridad. La combinación de legislación nacional y estándares internacionales resulta fundamental para enfrentar amenazas cibernéticas modernas.
