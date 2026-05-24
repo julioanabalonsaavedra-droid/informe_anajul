@@ -1,122 +1,302 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
+    <div className="container">
 
-      <div className="ticks"></div>
+      {/* Encabezado */}
 
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
+      <div className="hero">
 
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
-  )
+        <h1>
+          🚨 Ciberataque al <br />
+          Estado Mayor Conjunto (EMCO)
+        </h1>
+
+        <p>
+          Análisis legal y de ciberseguridad del incidente ocurrido en Chile durante 2022
+        </p>
+
+      </div>
+
+
+      {/* RESUMEN */}
+
+      <div className="card">
+
+        <h2>📌 Resumen Ejecutivo</h2>
+
+        <div className="grid">
+
+          <div className="miniCard">
+
+            <h3>¿Qué ocurrió?</h3>
+
+            <p>
+              El grupo de hackers Guacamaya obtuvo acceso no autorizado
+              a sistemas pertenecientes al Estado Mayor Conjunto (EMCO),
+              logrando extraer y filtrar aproximadamente 400.000 correos
+              electrónicos institucionales.
+            </p>
+
+          </div>
+
+          <div className="miniCard">
+
+            <h3>📅 Fecha</h3>
+
+            <p>
+              Septiembre de 2022
+            </p>
+
+          </div>
+
+          <div className="miniCard">
+
+            <h3>👥 Actores involucrados</h3>
+
+            <p>
+              • Grupo Guacamaya <br/>
+              • Estado Mayor Conjunto <br/>
+              • Funcionarios afectados <br/>
+              • Estado de Chile
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      {/* MARCO */}
+
+      <div className="card">
+
+        <h2>⚖ Marco Normativo</h2>
+
+        <div className="grid">
+
+          <div className="miniCard">
+
+            <h3>Ley Nº 21.459</h3>
+
+            <p>
+              Sanciona delitos informáticos como acceso ilícito,
+              interceptación y manipulación de información.
+            </p>
+
+          </div>
+
+
+          <div className="miniCard">
+
+            <h3>Ley Nº 19.628</h3>
+
+            <p>
+              Protege datos personales y privacidad de personas afectadas.
+            </p>
+
+          </div>
+
+
+          <div className="miniCard">
+
+            <h3>Convenio Budapest</h3>
+
+            <p>
+              Facilita cooperación internacional frente a ciberdelitos.
+            </p>
+
+          </div>
+
+
+          <div className="miniCard">
+
+            <h3>ISO 27001</h3>
+
+            <p>
+              Estándar internacional para gestión de seguridad.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      {/* DELITOS */}
+
+      <div className="card">
+
+        <h2>🚨 Delitos Asociados</h2>
+
+        <div className="grid">
+
+          <div className="miniCard">
+
+            <h3>Acceso ilícito</h3>
+
+            <p>
+              Ingreso no autorizado a servidores institucionales.
+            </p>
+
+          </div>
+
+          <div className="miniCard">
+
+            <h3>Interceptación ilícita</h3>
+
+            <p>
+              Obtención de comunicaciones privadas.
+            </p>
+
+          </div>
+
+          <div className="miniCard">
+
+            <h3>Ataque a integridad de datos</h3>
+
+            <p>
+              Extracción masiva de información protegida.
+            </p>
+
+          </div>
+
+          <div className="miniCard">
+
+            <h3>Ataque a sistemas</h3>
+
+            <p>
+              Afectación a infraestructura tecnológica institucional.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      {/* RESPONSABILIDADES */}
+
+      <div className="card">
+
+        <h2>👨‍⚖ Responsabilidades</h2>
+
+        <div className="grid">
+
+          <div className="miniCard">
+
+            <h3>Grupo Guacamaya</h3>
+
+            <p>
+              Responsabilidad penal por acceso ilícito y
+              obtención ilegal de información.
+            </p>
+
+          </div>
+
+          <div className="miniCard">
+
+            <h3>EMCO</h3>
+
+            <p>
+              Responsabilidad administrativa relacionada con
+              protección y gestión de información.
+            </p>
+
+          </div>
+
+          <div className="miniCard">
+
+            <h3>Administradores TI</h3>
+
+            <p>
+              Posible responsabilidad por negligencia o
+              debilidad en controles.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      {/* DATOS */}
+
+      <div className="card">
+
+        <h2>🔒 Datos afectados</h2>
+
+        <div className="grid">
+
+          <div className="miniCard">
+
+            <h3>Datos personales</h3>
+
+            <p>
+              Nombres, correos electrónicos y cargos.
+            </p>
+
+          </div>
+
+          <div className="miniCard">
+
+            <h3>Datos sensibles</h3>
+
+            <p>
+              Información estratégica y reservada.
+            </p>
+
+          </div>
+
+          <div className="miniCard">
+
+            <h3>Derechos ARCO</h3>
+
+            <p>
+              Acceso, Rectificación, Cancelación y Oposición.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      {/* CONCLUSIÓN */}
+
+      <div className="card">
+
+        <h2>🛡 Recomendaciones Finales</h2>
+
+        <ul>
+
+          <li>Implementar autenticación multifactor</li>
+
+          <li>Actualizar sistemas periódicamente</li>
+
+          <li>Capacitar personal</li>
+
+          <li>Monitorear vulnerabilidades</li>
+
+          <li>Aplicar ISO 27001</li>
+
+        </ul>
+
+      </div>
+
+    </div>
+  );
 }
 
-export default App
+export default App;
