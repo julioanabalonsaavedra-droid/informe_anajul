@@ -6,6 +6,8 @@ function App() {
 
       <div className="container">
 
+        {/* PORTADA */}
+
         <header className="hero">
 
           <h1>
@@ -13,14 +15,23 @@ function App() {
           </h1>
 
           <p>
-            Análisis legal, técnico y de ciberseguridad
-            del incidente ocurrido en Chile durante 2022
+            Informe técnico, legal y de ciberseguridad
+          </p>
+
+          <br/>
+
+          <p>
+            Autor: Julio Anabalón
           </p>
 
         </header>
 
+
+        {/* NAVEGACIÓN */}
+
         <nav className="nav">
 
+          <a href="#introduccion">Introducción</a>
           <a href="#resumen">Resumen</a>
           <a href="#marco">Marco</a>
           <a href="#delitos">Delitos</a>
@@ -33,19 +44,42 @@ function App() {
 
 
 
-        <section id="resumen" className="section">
+        {/* INTRODUCCIÓN */}
 
-          <h2>📌 Resumen Ejecutivo</h2>
+        <section id="introduccion" className="section">
+
+          <h2>📖 Introducción</h2>
 
           <div className="card">
 
             <p>
-              Durante septiembre de 2022 el Estado Mayor Conjunto
-              sufrió un ciberataque atribuido al grupo Guacamaya.
 
-              Los atacantes obtuvieron acceso no autorizado a sistemas
-              institucionales y lograron filtrar aproximadamente
-              400.000 correos electrónicos.
+              La ciberseguridad representa uno de los mayores desafíos
+              para organizaciones públicas y privadas debido al aumento
+              constante de amenazas digitales, vulnerabilidades y ataques
+              informáticos.
+
+            </p>
+
+            <br/>
+
+            <p>
+
+              Durante los últimos años, las instituciones han debido
+              fortalecer sus sistemas debido a que la información digital
+              se ha transformado en uno de los activos más importantes
+              para cualquier organización.
+
+            </p>
+
+            <br/>
+
+            <p>
+
+              En Chile uno de los casos más relevantes relacionados con
+              seguridad informática fue el ataque sufrido por el Estado
+              Mayor Conjunto (EMCO) durante el año 2022.
+
             </p>
 
           </div>
@@ -53,6 +87,52 @@ function App() {
         </section>
 
 
+
+
+        {/* RESUMEN */}
+
+        <section id="resumen" className="section">
+
+          <h2>📌 Resumen Ejecutivo</h2>
+
+          <div className="card">
+
+            <p>
+
+              Durante septiembre de 2022 el grupo conocido como
+              Guacamaya obtuvo acceso no autorizado a sistemas
+              pertenecientes al Estado Mayor Conjunto.
+
+            </p>
+
+            <br/>
+
+            <p>
+
+              El incidente permitió la extracción de aproximadamente
+              400.000 correos electrónicos institucionales que
+              posteriormente fueron publicados.
+
+            </p>
+
+            <br/>
+
+            <p>
+
+              La filtración generó riesgos relacionados con seguridad
+              institucional, exposición de información y protección
+              de datos.
+
+            </p>
+
+          </div>
+
+        </section>
+
+
+
+
+        {/* MARCO */}
 
         <section id="marco" className="section">
 
@@ -62,20 +142,26 @@ function App() {
 
             <div className="card">
 
-              <h3>Ley 21.459</h3>
+              <h3>Ley Nº 21.459</h3>
 
               <p>
-                Regula delitos informáticos en Chile.
+
+                Establece delitos informáticos en Chile y sanciona
+                acciones relacionadas con acceso ilícito, manipulación
+                y ataques contra sistemas.
+
               </p>
 
             </div>
 
             <div className="card">
 
-              <h3>Ley 19.628</h3>
+              <h3>Ley Nº 19.628</h3>
 
               <p>
-                Protección de datos personales.
+
+                Regula el tratamiento y protección de datos personales.
+
               </p>
 
             </div>
@@ -85,7 +171,9 @@ function App() {
               <h3>Convenio Budapest</h3>
 
               <p>
-                Cooperación internacional.
+
+                Facilita cooperación internacional frente a ciberdelitos.
+
               </p>
 
             </div>
@@ -95,7 +183,10 @@ function App() {
               <h3>ISO 27001</h3>
 
               <p>
-                Gestión de seguridad.
+
+                Estándar internacional relacionado con seguridad
+                informática.
+
               </p>
 
             </div>
@@ -107,100 +198,32 @@ function App() {
 
 
 
+
+        {/* DELITOS */}
+
         <section id="delitos" className="section">
 
-          <h2>🚨 Delitos asociados</h2>
-
-          <ul>
-
-            <li>Acceso ilícito a sistemas</li>
-
-            <li>Interceptación ilícita</li>
-
-            <li>Ataque a integridad de datos</li>
-
-            <li>Ataque a integridad de sistemas</li>
-
-          </ul>
-
-        </section>
-
-
-
-        <section id="comparacion" className="section">
-
-          <h2>📊 Comparación</h2>
-
-          <table>
-
-            <thead>
-
-              <tr>
-
-                <th>Norma</th>
-
-                <th>Objetivo</th>
-
-                <th>Aplicación</th>
-
-              </tr>
-
-            </thead>
-
-            <tbody>
-
-              <tr>
-
-                <td>Ley 21.459</td>
-
-                <td>Delitos</td>
-
-                <td>Sanciones</td>
-
-              </tr>
-
-              <tr>
-
-                <td>Ley 19.628</td>
-
-                <td>Datos</td>
-
-                <td>Privacidad</td>
-
-              </tr>
-
-              <tr>
-
-                <td>ISO 27001</td>
-
-                <td>Seguridad</td>
-
-                <td>Prevención</td>
-
-              </tr>
-
-            </tbody>
-
-          </table>
-
-        </section>
-
-
-
-
-        <section id="responsabilidades" className="section">
-
-          <h2>👨‍⚖ Responsabilidades</h2>
+          <h2>🚨 Delitos Informáticos</h2>
 
           <div className="card">
 
             <ul>
 
-              <li>Grupo Guacamaya → Responsabilidad penal</li>
+              <li>
+                Acceso ilícito a sistemas informáticos.
+              </li>
 
-              <li>EMCO → Responsabilidad administrativa</li>
+              <li>
+                Interceptación ilícita de comunicaciones.
+              </li>
 
-              <li>Administradores TI → Posible negligencia</li>
+              <li>
+                Ataque a integridad de datos.
+              </li>
+
+              <li>
+                Ataque a integridad de sistemas.
+              </li>
 
             </ul>
 
@@ -210,46 +233,157 @@ function App() {
 
 
 
-        <section id="datos" className="section">
 
-          <h2>🔒 Datos y Derechos ARCO</h2>
 
-          <div className="grid">
+        {/* COMPARACION */}
 
-            <div className="card">
+        <section id="comparacion" className="section">
 
-              <h3>Datos personales</h3>
+          <h2>📊 Comparación Normativa</h2>
 
-              <p>Nombres, cargos y correos.</p>
+          <div className="card">
 
-            </div>
+            <table>
 
-            <div className="card">
+              <thead>
 
-              <h3>Datos sensibles</h3>
+              <tr>
 
-              <p>Información estratégica.</p>
+                <th>Norma</th>
+                <th>Enfoque</th>
+                <th>Aplicación</th>
 
-            </div>
+              </tr>
 
-            <div className="card">
+              </thead>
 
-              <h3>Derechos ARCO</h3>
+              <tbody>
 
-              <p>
-                Acceso,
-                Rectificación,
-                Cancelación
-                y Oposición.
-              </p>
+              <tr>
 
-            </div>
+                <td>Ley 21.459</td>
+                <td>Delitos</td>
+                <td>Sanciones</td>
+
+              </tr>
+
+              <tr>
+
+                <td>Ley 19.628</td>
+                <td>Privacidad</td>
+                <td>Datos personales</td>
+
+              </tr>
+
+              <tr>
+
+                <td>ISO 27001</td>
+                <td>Seguridad</td>
+                <td>Prevención</td>
+
+              </tr>
+
+              </tbody>
+
+            </table>
 
           </div>
 
         </section>
 
 
+
+
+        {/* RESPONSABILIDADES */}
+
+        <section id="responsabilidades" className="section">
+
+          <h2>👨‍⚖ Responsabilidades</h2>
+
+          <div className="card">
+
+            <ul>
+
+              <li>
+                Grupo Guacamaya → Responsabilidad penal.
+              </li>
+
+              <li>
+                EMCO → Responsabilidad administrativa.
+              </li>
+
+              <li>
+                Administradores TI → Posible negligencia.
+              </li>
+
+            </ul>
+
+          </div>
+
+        </section>
+
+
+
+
+
+        {/* DATOS */}
+
+        <section id="datos" className="section">
+
+          <h2>🔒 Datos y Derechos ARCO</h2>
+
+          <div className="card">
+
+            <p>
+
+              Entre los datos afectados se encontraban:
+
+            </p>
+
+            <br/>
+
+            <ul>
+
+              <li>Nombres</li>
+
+              <li>Correos electrónicos</li>
+
+              <li>Cargos</li>
+
+              <li>Información institucional</li>
+
+            </ul>
+
+            <br/>
+
+            <p>
+
+              Los derechos ARCO consideran:
+
+            </p>
+
+            <br/>
+
+            <ul>
+
+              <li>Acceso</li>
+
+              <li>Rectificación</li>
+
+              <li>Cancelación</li>
+
+              <li>Oposición</li>
+
+            </ul>
+
+          </div>
+
+        </section>
+
+
+
+
+        {/* CONCLUSIONES */}
 
         <section id="conclusiones" className="section">
 
@@ -258,14 +392,27 @@ function App() {
           <div className="card">
 
             <p>
-              Este caso demuestra la importancia
-              de fortalecer medidas de ciberseguridad
-              y protección de información crítica.
+
+              El caso EMCO demuestra que incluso instituciones
+              críticas pueden verse afectadas por amenazas
+              digitales avanzadas.
+
+            </p>
+
+            <br/>
+
+            <p>
+
+              La implementación de medidas preventivas,
+              capacitación continua y mejores controles
+              de seguridad puede reducir riesgos futuros.
+
             </p>
 
           </div>
 
         </section>
+
 
         <footer>
 
@@ -276,7 +423,7 @@ function App() {
       </div>
 
     </main>
-  );
+  )
 }
 
 export default App;
