@@ -1,441 +1,940 @@
 import "./App.css";
 
 function App() {
-return (
+  return (
+    <main className="app">
 
-<main className="app">
+      <div className="container">
 
-<div className="container">
+        {/* PORTADA */}
 
-<header className="hero">
+        <header className="hero">
 
-<h1>🚨 Ciberataque al Estado Mayor Conjunto (EMCO)</h1>
+          <div className="heroContent">
 
-<p>
-Informe técnico, legal y análisis de ciberseguridad
-</p>
+            <h1>
+              🚨 Ciberataque al Estado Mayor Conjunto (EMCO)
+            </h1>
 
-<p className="autor">
-Autor: Julio Anabalón
-</p>
+            <p className="subtitulo">
+              Informe técnico, legal y análisis de ciberseguridad
+            </p>
 
-</header>
+            <div className="autorBox">
 
+              <span>Autor:</span>
 
-<nav className="nav">
+              <strong> Julio Anabalón </strong>
 
-<a href="#introduccion">Introducción</a>
+            </div>
 
-<a href="#resumen">Resumen</a>
+          </div>
 
-<a href="#marco">Marco</a>
+        </header>
 
-<a href="#delitos">Delitos</a>
 
-<a href="#comparacion">Comparación</a>
 
-<a href="#responsabilidades">Responsabilidades</a>
+        {/* MENU */}
 
-<a href="#datos">Datos</a>
+        <nav className="nav">
 
-<a href="#conclusiones">Conclusiones</a>
+          <a href="#resumen">01 Resumen</a>
 
-</nav>
+          <a href="#marco">02 Marco</a>
 
+          <a href="#delitos">03 Delitos</a>
 
+          <a href="#comparacion">04 Comparación</a>
 
-<section
-id="introduccion"
-className="section"
->
+          <a href="#responsabilidades">05 Responsabilidades</a>
 
-<h2>📖 Introducción</h2>
+          <a href="#datos">06 Datos</a>
 
-<div className="card">
+          <a href="#conclusiones">07 Conclusiones</a>
 
-<p>
+          <a href="#prompts">08 Bitácora IA</a>
 
-La ciberseguridad constituye uno de los principales desafíos para instituciones públicas y privadas debido al crecimiento de amenazas digitales.
+        </nav>
 
-</p>
 
-<br/>
 
-<p>
 
-Durante el año 2022 Chile enfrentó uno de los incidentes más relevantes relacionados con seguridad informática: el ataque sufrido por el Estado Mayor Conjunto (EMCO), atribuido al grupo Guacamaya.
 
-</p>
+        {/* RESUMEN */}
 
-<br/>
+        <section
+        id="resumen"
+        className="section"
+        >
 
-<p>
+        <div className="titleBox">
 
-Este caso permite analizar delitos informáticos, normativas legales, protección de datos y responsabilidades asociadas.
+        <span>01</span>
 
-</p>
+        <h2>
+        Resumen Ejecutivo
+        </h2>
 
-</div>
+        </div>
 
-</section>
 
+        <div className="card">
 
+        <p>
 
-<section
-id="resumen"
-className="section"
->
+        El ciberataque al Estado Mayor Conjunto (EMCO)
+        ocurrido durante septiembre del año 2022
+        corresponde a uno de los incidentes de
+        ciberseguridad más importantes registrados
+        en Chile debido a la cantidad de información
+        comprometida y las consecuencias asociadas
+        a seguridad nacional.
 
-<h2>📌 Resumen Ejecutivo</h2>
+        </p>
 
-<div className="card">
+        <br/>
 
-<p>
+        <p>
 
-En septiembre de 2022 el grupo Guacamaya obtuvo acceso no autorizado a sistemas del Estado Mayor Conjunto.
+        El grupo Guacamaya obtuvo acceso no autorizado
+        a sistemas institucionales pertenecientes
+        al Estado Mayor Conjunto y logró extraer
+        aproximadamente 400.000 correos electrónicos
+        asociados a organismos militares y administrativos.
 
-</p>
+        </p>
 
-<br/>
+        <br/>
 
-<p>
+        <p>
 
-Los atacantes lograron extraer aproximadamente 400.000 correos electrónicos institucionales.
+        Entre los documentos comprometidos
+        se encontraban:
 
-</p>
+        </p>
 
-<br/>
+        <ul>
 
-<p>
+        <li>
+        Reportes militares
+        </li>
 
-El incidente produjo riesgos relacionados con seguridad institucional, protección de datos personales y exposición de información sensible.
+        <li>
+        Información estratégica
+        </li>
 
-</p>
+        <li>
+        Comunicaciones institucionales
+        </li>
 
-</div>
+        <li>
+        Documentación reservada
+        </li>
 
-</section>
+        <li>
+        Información asociada a seguridad
+        </li>
 
+        </ul>
 
 
+        <br/>
 
-<section
-id="marco"
-className="section"
->
+        <p>
 
-<h2>⚖ Marco Normativo</h2>
+        Las consecuencias principales del incidente fueron:
 
-<div className="grid">
+        </p>
 
-<div className="card">
 
-<h3>Ley 21.459</h3>
+        <ul>
 
-<p>
+        <li>
+        Riesgo para seguridad nacional
+        </li>
 
-Regula delitos informáticos en Chile y aplica al acceso no autorizado y extracción de información.
+        <li>
+        Exposición de datos institucionales
+        </li>
 
-</p>
+        <li>
+        Investigaciones internas
+        </li>
 
-</div>
+        <li>
+        Impacto en infraestructura crítica
+        </li>
 
-<div className="card">
+        </ul>
 
-<h3>Ley 19.628</h3>
+        </div>
 
-<p>
+        </section>
 
-Protección y tratamiento de datos personales comprometidos.
 
-</p>
 
-</div>
 
-<div className="card">
 
-<h3>Convenio Budapest</h3>
+        {/* MARCO NORMATIVO */}
 
-<p>
+        <section
+        id="marco"
+        className="section"
+        >
 
-Cooperación internacional para investigación de delitos informáticos.
+        <div className="titleBox">
 
-</p>
+        <span>02</span>
 
-</div>
+        <h2>
 
-<div className="card">
+        Marco Normativo
 
-<h3>ISO 27001</h3>
+        </h2>
 
-<p>
+        </div>
 
-Estándar para gestión y prevención de incidentes de seguridad.
+        <div className="grid">
 
-</p>
+        <div className="card">
 
-</div>
+        <h3>
 
-</div>
+        Ley Nº 21.459
 
-</section>
+        </h3>
 
+        <p>
 
+        Regula delitos informáticos
+        relacionados con acceso ilícito,
+        interceptación y manipulación
+        de información.
 
+        </p>
 
-<section
-id="delitos"
-className="section"
->
+        </div>
 
-<h2>🚨 Delitos Informáticos (Ley 21.459)</h2>
 
-<div className="card">
 
-<ul>
+        <div className="card">
 
-<li>
+        <h3>
 
-Artículo 2:
-Acceso ilícito a sistemas informáticos.
+        Ley Nº 19.628
 
-</li>
+        </h3>
 
-<li>
+        <p>
 
-Artículo 3:
-Interceptación ilícita de información.
+        Regula protección y tratamiento
+        de datos personales.
 
-</li>
+        </p>
 
-<li>
+        </div>
 
-Artículo 6:
-Ataque a integridad de datos y sistemas.
 
-</li>
 
-</ul>
+        <div className="card">
 
-</div>
+        <h3>
 
-</section>
+        Convenio Budapest
 
+        </h3>
 
+        <p>
 
+        Facilita cooperación internacional
+        frente a delitos informáticos.
 
-<section
-id="comparacion"
-className="section"
->
+        </p>
 
-<h2>📊 Comparación de marcos regulatorios</h2>
+        </div>
 
-<div className="tableContainer">
 
-<table>
+        <div className="card">
 
-<thead>
+        <h3>
 
-<tr>
+        ISO 27001
 
-<th>Norma</th>
-<th>Alcance</th>
-<th>Aplicabilidad</th>
+        </h3>
 
-</tr>
+        <p>
 
-</thead>
+        Gestión de seguridad y prevención.
 
-<tbody>
+        </p>
 
-<tr>
+        </div>
 
-<td>Ley 21.459</td>
+        </div>
 
-<td>
-Delitos informáticos
-</td>
+        </section>
+                {/* DELITOS */}
 
-<td>
-Sanciona acciones del atacante
-</td>
+        <section
+        id="delitos"
+        className="section"
+        >
 
-</tr>
+        <div className="titleBox">
 
-<tr>
+        <span>03</span>
 
-<td>Ley 19.628</td>
+        <h2>
 
-<td>
-Datos personales
-</td>
+        Tipificación de Delitos Informáticos
 
-<td>
-Protección información afectada
-</td>
+        </h2>
 
-</tr>
+        </div>
 
-<tr>
+        <div className="card">
 
-<td>ISO 27001</td>
+        <p>
 
-<td>
-Seguridad
-</td>
+        De acuerdo con la Ley Nº 21.459 sobre delitos informáticos,
+        las acciones realizadas durante el ataque al Estado Mayor
+        Conjunto pueden asociarse directamente a diversos artículos.
 
-<td>
-Prevención y controles
-</td>
+        </p>
 
-</tr>
+        <br/>
 
-</tbody>
+        <ul>
 
-</table>
+        <li>
 
-</div>
+        <strong>Artículo 2 — Acceso ilícito:</strong>
 
-</section>
+        Obtención de acceso no autorizado a sistemas
+        institucionales pertenecientes al EMCO.
 
+        </li>
 
 
+        <li>
 
-<section
-id="responsabilidades"
-className="section"
->
+        <strong>Artículo 3 — Interceptación ilícita:</strong>
 
-<h2>👨‍⚖ Responsabilidades legales</h2>
+        Obtención y extracción de comunicaciones
+        electrónicas y correos institucionales.
 
-<div className="card">
+        </li>
 
-<ul>
 
-<li>
+        <li>
 
-Grupo Guacamaya:
-Responsabilidad penal por acceso ilícito.
+        <strong>Artículo 6 — Ataque a integridad de datos:</strong>
 
-</li>
+        Obtención, manipulación y exposición
+        de información almacenada.
 
-<li>
+        </li>
 
-EMCO:
-Responsabilidad administrativa por controles internos.
+        </ul>
 
-</li>
+        <br/>
 
-<li>
+        <p>
 
-Administradores TI:
-Posible responsabilidad civil y administrativa.
+        La conducta observada durante el incidente
+        coincide con acciones sancionadas por la legislación
+        chilena debido a la existencia de acceso no autorizado,
+        obtención de información y vulneración
+        de sistemas informáticos.
 
-</li>
+        </p>
 
-</ul>
+        </div>
 
-</div>
+        </section>
 
-</section>
 
 
 
 
-<section
-id="datos"
-className="section"
->
+        {/* COMPARACIÓN */}
 
-<h2>🔒 Datos personales y derechos ARCO</h2>
+        <section
+        id="comparacion"
+        className="section"
+        >
 
-<div className="card">
+        <div className="titleBox">
 
-<h3>Datos comprometidos</h3>
+        <span>04</span>
 
-<ul>
+        <h2>
 
-<li>Correos electrónicos</li>
+        Comparación de marcos regulatorios
 
-<li>Nombres de funcionarios</li>
+        </h2>
 
-<li>Cargos institucionales</li>
+        </div>
 
-</ul>
+        <div className="card">
 
-<br/>
+        <table>
 
-<h3>Clasificación</h3>
+        <thead>
 
-<ul>
+        <tr>
 
-<li>Datos personales</li>
+        <th>Marco</th>
 
-<li>Datos sensibles</li>
+        <th>Objetivo</th>
 
-</ul>
+        <th>Aplicabilidad</th>
 
-<br/>
+        </tr>
 
-<h3>Derechos ARCO afectados</h3>
+        </thead>
 
-<ul>
 
-<li>Acceso</li>
-<li>Rectificación</li>
-<li>Cancelación</li>
-<li>Oposición</li>
+        <tbody>
 
-</ul>
+        <tr>
 
-</div>
+        <td>Ley 21.459</td>
 
-</section>
+        <td>
 
+        Delitos informáticos
 
+        </td>
 
+        <td>
 
-<section
-id="conclusiones"
-className="section"
->
+        Sanciona acceso ilícito y extracción.
 
-<h2>🛡 Conclusiones</h2>
+        </td>
 
-<div className="card">
+        </tr>
 
-<p>
 
-El caso EMCO demuestra que incluso organizaciones críticas pueden sufrir incidentes de seguridad relevantes.
 
-</p>
+        <tr>
 
-<br/>
+        <td>Ley 19.628</td>
 
-<p>
+        <td>
 
-La implementación de autenticación multifactor, capacitación continua, actualización tecnológica y aplicación de normas como ISO 27001 permiten reducir riesgos futuros.
+        Protección datos personales
 
-</p>
+        </td>
 
-</div>
+        <td>
 
-</section>
+        Protege información afectada.
 
+        </td>
 
+        </tr>
 
-<footer>
 
-Julio Anabalón | Proyecto EMCO | React + Vite
+        <tr>
 
-</footer>
+        <td>ISO 27001</td>
 
-</div>
+        <td>
 
-</main>
+        Gestión seguridad
 
-);
+        </td>
+
+        <td>
+
+        Prevención y controles.
+
+        </td>
+
+        </tr>
+
+        </tbody>
+
+        </table>
+
+
+        <br/>
+
+        <p>
+
+        La comparación evidencia que cada marco
+        posee un enfoque distinto. Mientras la Ley
+        21.459 establece sanciones penales, la Ley
+        19.628 protege derechos asociados a datos
+        personales y la ISO 27001 incorpora medidas
+        preventivas.
+
+        </p>
+
+        </div>
+
+        </section>
+
+
+
+
+
+        {/* RESPONSABILIDADES */}
+
+        <section
+        id="responsabilidades"
+        className="section"
+        >
+
+        <div className="titleBox">
+
+        <span>05</span>
+
+        <h2>
+
+        Responsabilidades legales
+
+        </h2>
+
+        </div>
+
+        <div className="card">
+
+        <ul>
+
+        <li>
+
+        <strong>Grupo Guacamaya:</strong>
+
+        Responsabilidad penal debido
+        a acceso ilícito y obtención
+        de información.
+
+        </li>
+
+
+        <li>
+
+        <strong>Estado Mayor Conjunto:</strong>
+
+        Responsabilidad administrativa
+        relacionada con medidas
+        de protección y seguridad.
+
+        </li>
+
+
+        <li>
+
+        <strong>Administradores TI:</strong>
+
+        Posibles responsabilidades
+        civiles y administrativas
+        relacionadas con controles
+        internos.
+
+        </li>
+
+        </ul>
+
+        </div>
+
+        </section>
+
+
+
+
+
+        {/* DATOS */}
+
+        <section
+        id="datos"
+        className="section"
+        >
+
+        <div className="titleBox">
+
+        <span>06</span>
+
+        <h2>
+
+        Tratamiento de Datos Personales
+
+        </h2>
+
+        </div>
+
+        <div className="card">
+
+        <h3>
+
+        Datos comprometidos
+
+        </h3>
+
+        <ul>
+
+        <li>
+        Correos electrónicos
+        </li>
+
+        <li>
+        Nombres funcionarios
+        </li>
+
+        <li>
+        Cargos institucionales
+        </li>
+
+        </ul>
+
+
+        <br/>
+
+        <h3>
+
+        Clasificación
+
+        </h3>
+
+        <ul>
+
+        <li>
+        Datos personales
+        </li>
+
+        <li>
+        Datos sensibles
+        </li>
+
+        </ul>
+
+
+        <br/>
+
+        <h3>
+
+        Derechos ARCO afectados
+
+        </h3>
+
+        <ul>
+
+        <li>Acceso</li>
+
+        <li>Rectificación</li>
+
+        <li>Cancelación</li>
+
+        <li>Oposición</li>
+
+        </ul>
+
+        </div>
+
+        </section>
+                {/* CONCLUSIONES */}
+
+        <section
+        id="conclusiones"
+        className="section"
+        >
+
+        <div className="titleBox">
+
+        <span>07</span>
+
+        <h2>
+
+        Conclusiones y reflexión final
+
+        </h2>
+
+        </div>
+
+        <div className="card">
+
+        <p>
+
+        El caso del ciberataque al Estado Mayor Conjunto
+        demuestra que incluso organizaciones consideradas
+        críticas pueden presentar vulnerabilidades que
+        permitan el acceso no autorizado a sistemas e
+        información sensible.
+
+        </p>
+
+        <br/>
+
+        <p>
+
+        La filtración de aproximadamente 400.000 correos
+        institucionales generó riesgos asociados a
+        seguridad nacional, protección de datos y
+        exposición de información estratégica.
+
+        </p>
+
+        <br/>
+
+        <p>
+
+        La existencia de marcos regulatorios como
+        la Ley Nº 21.459 y la Ley Nº 19.628 permite
+        establecer responsabilidades y medidas
+        relacionadas con protección de sistemas y
+        datos personales.
+
+        </p>
+
+        <br/>
+
+        <p>
+
+        Se recomienda fortalecer mecanismos
+        preventivos mediante:
+
+        </p>
+
+        <ul>
+
+        <li>
+
+        Implementación de autenticación multifactor
+
+        </li>
+
+        <li>
+
+        Capacitación continua de usuarios
+
+        </li>
+
+        <li>
+
+        Actualización permanente de sistemas
+
+        </li>
+
+        <li>
+
+        Aplicación de estándares internacionales
+        como ISO 27001
+
+        </li>
+
+        <li>
+
+        Monitoreo continuo de amenazas
+
+        </li>
+
+        </ul>
+
+        <br/>
+
+        <p>
+
+        Como reflexión final, este caso evidencia que
+        la ciberseguridad ya no corresponde únicamente
+        a un área técnica, sino que constituye una
+        necesidad estratégica para cualquier institución.
+
+        </p>
+
+        </div>
+
+        </section>
+
+
+
+
+
+        {/* BITÁCORA IA */}
+
+        <section
+        id="prompts"
+        className="section"
+        >
+
+        <div className="titleBox">
+
+        <span>08</span>
+
+        <h2>
+
+        Bitácora IA y Prompts utilizados
+
+        </h2>
+
+        </div>
+
+        <div className="card">
+
+        <p>
+
+        Durante el desarrollo del proyecto se utilizó
+        inteligencia artificial como apoyo para investigación,
+        organización y análisis del caso del ciberataque al
+        Estado Mayor Conjunto (EMCO). Las respuestas obtenidas
+        fueron revisadas y ajustadas para mantener coherencia
+        con el caso y los requisitos de la rúbrica.
+
+        </p>
+
+        <br/>
+
+        <h3>
+
+        Prompts utilizados por sección
+
+        </h3>
+
+        <ul>
+
+        <li>
+
+        <strong>Resumen:</strong>
+
+        "Necesito un caso real de ciberataque ocurrido en Chile que incluya consecuencias, actores involucrados y afectación institucional."
+
+        </li>
+
+        <li>
+
+        <strong>Marco normativo:</strong>
+
+        "Indica normas nacionales e internacionales aplicables al caso EMCO y justifica su relación con hechos concretos."
+
+        </li>
+
+        <li>
+
+        <strong>Delitos:</strong>
+
+        "Relaciona artículos específicos de la Ley Nº 21.459 con las acciones realizadas durante el ataque."
+
+        </li>
+
+        <li>
+
+        <strong>Comparación:</strong>
+
+        "Genera una tabla comparativa entre Ley Nº 21.459, Ley Nº 19.628 e ISO 27001 indicando alcance, objetivo y aplicabilidad."
+
+        </li>
+
+        <li>
+
+        <strong>Responsabilidades:</strong>
+
+        "Identifica actores involucrados y diferencia responsabilidades penales, civiles y administrativas."
+
+        </li>
+
+        <li>
+
+        <strong>Datos:</strong>
+
+        "Clasifica datos comprometidos entre personales y sensibles e identifica derechos ARCO afectados."
+
+        </li>
+
+        <li>
+
+        <strong>Conclusiones:</strong>
+
+        "Genera conclusiones y recomendaciones sobre medidas preventivas para reducir riesgos similares."
+
+        </li>
+
+        </ul>
+
+        <br/>
+
+        <h3>
+
+        Correcciones realizadas
+
+        </h3>
+
+        <ul>
+
+        <li>
+
+        Inicialmente se generó contenido resumido y fue necesario ampliar información para ajustarse a la rúbrica.
+
+        </li>
+
+        <li>
+
+        Se corrigieron responsabilidades legales agregando tipos de responsabilidad y relación con normas.
+
+        </li>
+
+        <li>
+
+        Se agregaron artículos específicos de la Ley Nº 21.459 para mejorar precisión.
+
+        </li>
+
+        <li>
+
+        Se reorganizó el contenido para convertir una infografía en un informe completo.
+
+        </li>
+
+        </ul>
+
+        <br/>
+
+        <h3>
+
+        Reflexión final sobre IA
+
+        </h3>
+
+        <p>
+
+        La inteligencia artificial fue utilizada como una herramienta de apoyo y no como sustituto del análisis humano. El chatbot permitió generar ideas y organizar información, mientras que el usuario actuó como agente activo revisando, corrigiendo y adaptando las respuestas según el contexto del caso y los criterios de evaluación.
+
+        </p>
+
+        </div>
+
+        </section>
+
+
+
+
+
+        {/* FOOTER */}
+
+        <footer>
+
+        <p>
+
+        Julio Anabalón | Proyecto EMCO | React + Vite
+
+        </p>
+
+        <br/>
+
+        <p>
+
+        Informe académico sobre análisis de
+        ciberseguridad y delitos informáticos.
+
+        </p>
+
+        </footer>
+
+      </div>
+
+    </main>
+
+  );
 }
 
 export default App;
