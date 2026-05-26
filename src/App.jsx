@@ -1855,121 +1855,336 @@ de la información institucional.
 
 </section>
 
-                {/* CONCLUSIONES */}
+{/* CONCLUSIONES */}
 
-        <section
-        id="conclusiones"
-        className="section"
-        >
+<section
+id="conclusiones"
+className="section"
+>
 
-        <div className="titleBox">
+<div className="titleBox">
 
-        <span>07</span>
+<span>07</span>
 
-        <h2>
+<h2>
 
-        Conclusiones y reflexión final
+Conclusiones y Recomendaciones
 
-        </h2>
+</h2>
 
-        </div>
+</div>
 
-        <div className="card">
+<div className="card">
 
-        <p>
+<p>
 
-        El caso del ciberataque al Estado Mayor Conjunto
-        demuestra que incluso organizaciones consideradas
-        críticas pueden presentar vulnerabilidades que
-        permitan el acceso no autorizado a sistemas e
-        información sensible.
+El análisis del ataque informático sufrido por el
+Estado Mayor Conjunto (EMCO) durante el año 2022
+permitió identificar distintos elementos relacionados
+con ciberseguridad, legislación informática,
+protección de datos y responsabilidades institucionales.
 
-        </p>
+</p>
 
-        <br/>
+<br/>
 
-        <p>
+<p>
 
-        La filtración de aproximadamente 400.000 correos
-        institucionales generó riesgos asociados a
-        seguridad nacional, protección de datos y
-        exposición de información estratégica.
+El incidente demostró que las amenazas digitales
+actuales pueden afectar incluso a organizaciones
+que administran información crítica y estratégica
+para un país.
 
-        </p>
+</p>
 
-        <br/>
+<br/>
 
-        <p>
+<p>
 
-        La existencia de marcos regulatorios como
-        la Ley Nº 21.459 y la Ley Nº 19.628 permite
-        establecer responsabilidades y medidas
-        relacionadas con protección de sistemas y
-        datos personales.
+La complejidad del caso evidencia que los ataques
+informáticos modernos no generan únicamente
+consecuencias tecnológicas, sino también efectos
+legales, administrativos y organizacionales.
 
-        </p>
+</p>
 
-        <br/>
-
-        <p>
-
-        Se recomienda fortalecer mecanismos
-        preventivos mediante:
-
-        </p>
-
-        <ul>
-
-        <li>
-
-        Implementación de autenticación multifactor
-
-        </li>
-
-        <li>
-
-        Capacitación continua de usuarios
-
-        </li>
-
-        <li>
-
-        Actualización permanente de sistemas
-
-        </li>
-
-        <li>
-
-        Aplicación de estándares internacionales
-        como ISO 27001
-
-        </li>
-
-        <li>
-
-        Monitoreo continuo de amenazas
-
-        </li>
-
-        </ul>
-
-        <br/>
-
-        <p>
-
-        Como reflexión final, este caso evidencia que
-        la ciberseguridad ya no corresponde únicamente
-        a un área técnica, sino que constituye una
-        necesidad estratégica para cualquier institución.
-
-        </p>
-
-        </div>
-
-        </section>
+<br/>
 
 
+<h3>
 
+Principales conclusiones del análisis
+
+</h3>
+
+<br/>
+
+<h4>
+
+Existencia de múltiples delitos informáticos
+
+</h4>
+
+<p>
+
+Las acciones atribuidas al grupo atacante podrían
+relacionarse con diversas conductas sancionadas por
+la Ley Nº 21.459 sobre Delitos Informáticos.
+
+</p>
+
+<ul>
+
+<li>Acceso ilícito a sistemas informáticos</li>
+
+<li>Interceptación de comunicaciones</li>
+
+<li>Obtención y extracción de información</li>
+
+<li>Afectación de integridad de datos y sistemas</li>
+
+</ul>
+
+<p>
+
+Esto demuestra que un único incidente puede
+involucrar diversos delitos simultáneamente.
+
+</p>
+
+<br/>
+
+
+<h4>
+
+Riesgo asociado a la protección de datos personales
+
+</h4>
+
+<p>
+
+La filtración de información institucional puede
+implicar exposición de datos relacionados con
+personas naturales y funcionarios públicos.
+
+</p>
+
+<ul>
+
+<li>Nombres completos</li>
+
+<li>Correos electrónicos</li>
+
+<li>Información laboral</li>
+
+<li>Comunicaciones internas</li>
+
+</ul>
+
+<p>
+
+Lo anterior puede generar vulneraciones relacionadas
+con protección de datos y afectar derechos asociados
+a la privacidad.
+
+</p>
+
+<br/>
+
+
+<h4>
+
+Importancia de la seguridad en instituciones críticas
+
+</h4>
+
+<p>
+
+Las organizaciones públicas y organismos relacionados
+con seguridad nacional requieren medidas de protección
+avanzadas debido al valor de la información administrada.
+
+</p>
+
+<ul>
+
+<li>Explotar vulnerabilidades</li>
+
+<li>Obtener acceso no autorizado</li>
+
+<li>Extraer grandes cantidades de información</li>
+
+<li>Generar impactos operacionales importantes</li>
+
+</ul>
+
+<br/>
+
+
+<h4>
+
+Necesidad de fortalecer marcos preventivos
+
+</h4>
+
+<p>
+
+Las medidas reactivas resultan insuficientes frente
+a amenazas cibernéticas complejas.
+
+</p>
+
+<p>
+
+Las organizaciones deben implementar estrategias
+preventivas que permitan reducir riesgos antes
+de la ocurrencia de incidentes.
+
+</p>
+
+<br/>
+
+
+<h3>
+
+Recomendaciones de seguridad
+
+</h3>
+
+<br/>
+
+<h4>
+
+Implementación de autenticación multifactor (MFA)
+
+</h4>
+
+<p>
+
+El uso de múltiples factores de autenticación puede
+reducir el riesgo de accesos no autorizados y
+fortalecer seguridad institucional.
+
+</p>
+
+<br/>
+
+
+<h4>
+
+Actualización periódica de sistemas
+
+</h4>
+
+<ul>
+
+<li>Sistemas operativos actualizados</li>
+
+<li>Aplicaciones con parches de seguridad</li>
+
+<li>Corrección de vulnerabilidades conocidas</li>
+
+</ul>
+
+<br/>
+
+
+<h4>
+
+Monitoreo continuo de infraestructura tecnológica
+
+</h4>
+
+<ul>
+
+<li>Detectar accesos sospechosos</li>
+
+<li>Identificar actividades anómalas</li>
+
+<li>Generar alertas tempranas</li>
+
+</ul>
+
+<br/>
+
+
+<h4>
+
+Capacitación y concientización del personal
+
+</h4>
+
+<ul>
+
+<li>Capacitaciones periódicas</li>
+
+<li>Simulaciones de ataques</li>
+
+<li>Buenas prácticas digitales</li>
+
+</ul>
+
+<br/>
+
+
+<h4>
+
+Implementación de estándares internacionales
+
+</h4>
+
+<p>
+
+La adopción de estándares como ISO/IEC 27001
+permite fortalecer gestión de seguridad y
+protección de información.
+
+</p>
+
+<br/>
+
+
+<h3>
+
+Reflexión final
+
+</h3>
+
+<p>
+
+El desarrollo del análisis permitió comprender
+que la ciberseguridad representa un desafío cada
+vez más importante para organizaciones públicas y
+privadas debido al aumento constante de amenazas
+digitales.
+
+</p>
+
+<br/>
+
+<p>
+
+El caso EMCO demuestra que incluso instituciones
+encargadas de administrar información crítica
+pueden verse afectadas por vulnerabilidades y
+fallas de protección.
+
+</p>
+
+<br/>
+
+<p>
+
+La seguridad informática no depende únicamente
+de herramientas tecnológicas, sino también de
+políticas adecuadas, capacitación continua y una
+cultura organizacional orientada a prevención.
+
+</p>
+
+</div>
+
+</section>
 
 
         {/* BITÁCORA IA */}
