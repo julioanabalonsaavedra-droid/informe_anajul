@@ -10,21 +10,24 @@ function App() {
 
         <header className="hero">
 
-          <h1>
-            🚨 Ciberataque al Estado Mayor Conjunto (EMCO)
-          </h1>
+          <div className="heroContent">
 
-          <p>
-            Informe técnico, legal y de ciberseguridad
-          </p>
+            <h1>
+              🚨 Ciberataque al Estado Mayor Conjunto (EMCO)
+            </h1>
 
-          <br/>
+            <p>
+              Informe técnico, legal y de ciberseguridad
+            </p>
 
-          <p>
-            Autor: Julio Anabalón
-          </p>
+            <span className="autor">
+              Autor: Julio Anabalón
+            </span>
+
+          </div>
 
         </header>
+
 
 
         {/* NAVEGACIÓN */}
@@ -50,39 +53,25 @@ function App() {
 
           <h2>📖 Introducción</h2>
 
-          <div className="card">
+          <article className="card">
 
             <p>
-
-              La ciberseguridad representa uno de los mayores desafíos
-              para organizaciones públicas y privadas debido al aumento
-              constante de amenazas digitales, vulnerabilidades y ataques
-              informáticos.
-
+              La ciberseguridad representa uno de los principales
+              desafíos actuales para instituciones públicas y privadas.
+              El crecimiento de amenazas digitales y ataques
+              informáticos ha obligado a las organizaciones a
+              fortalecer mecanismos de protección.
             </p>
 
             <br/>
 
             <p>
-
-              Durante los últimos años, las instituciones han debido
-              fortalecer sus sistemas debido a que la información digital
-              se ha transformado en uno de los activos más importantes
-              para cualquier organización.
-
+              Durante el año 2022 Chile enfrentó uno de los casos
+              más relevantes relacionados con seguridad informática:
+              el ataque sufrido por el Estado Mayor Conjunto (EMCO).
             </p>
 
-            <br/>
-
-            <p>
-
-              En Chile uno de los casos más relevantes relacionados con
-              seguridad informática fue el ataque sufrido por el Estado
-              Mayor Conjunto (EMCO) durante el año 2022.
-
-            </p>
-
-          </div>
+          </article>
 
         </section>
 
@@ -95,37 +84,22 @@ function App() {
 
           <h2>📌 Resumen Ejecutivo</h2>
 
-          <div className="card">
+          <article className="card">
 
             <p>
-
-              Durante septiembre de 2022 el grupo conocido como
-              Guacamaya obtuvo acceso no autorizado a sistemas
-              pertenecientes al Estado Mayor Conjunto.
-
+              Durante septiembre de 2022 el grupo Guacamaya obtuvo
+              acceso no autorizado a sistemas institucionales del
+              Estado Mayor Conjunto.
             </p>
 
             <br/>
 
             <p>
-
-              El incidente permitió la extracción de aproximadamente
-              400.000 correos electrónicos institucionales que
-              posteriormente fueron publicados.
-
+              El incidente permitió la extracción aproximada de
+              400.000 correos electrónicos institucionales.
             </p>
 
-            <br/>
-
-            <p>
-
-              La filtración generó riesgos relacionados con seguridad
-              institucional, exposición de información y protección
-              de datos.
-
-            </p>
-
-          </div>
+          </article>
 
         </section>
 
@@ -140,56 +114,25 @@ function App() {
 
           <div className="grid">
 
-            <div className="card">
-
+            <article className="card">
               <h3>Ley Nº 21.459</h3>
+              <p>Regula delitos informáticos en Chile.</p>
+            </article>
 
-              <p>
-
-                Establece delitos informáticos en Chile y sanciona
-                acciones relacionadas con acceso ilícito, manipulación
-                y ataques contra sistemas.
-
-              </p>
-
-            </div>
-
-            <div className="card">
-
+            <article className="card">
               <h3>Ley Nº 19.628</h3>
+              <p>Protección de datos personales.</p>
+            </article>
 
-              <p>
-
-                Regula el tratamiento y protección de datos personales.
-
-              </p>
-
-            </div>
-
-            <div className="card">
-
+            <article className="card">
               <h3>Convenio Budapest</h3>
+              <p>Cooperación internacional.</p>
+            </article>
 
-              <p>
-
-                Facilita cooperación internacional frente a ciberdelitos.
-
-              </p>
-
-            </div>
-
-            <div className="card">
-
+            <article className="card">
               <h3>ISO 27001</h3>
-
-              <p>
-
-                Estándar internacional relacionado con seguridad
-                informática.
-
-              </p>
-
-            </div>
+              <p>Seguridad de información.</p>
+            </article>
 
           </div>
 
@@ -197,91 +140,56 @@ function App() {
 
 
 
+        {/* TABLA RESPONSIVE */}
 
+        <section
+        id="comparacion"
+        className="section"
+        >
 
-        {/* DELITOS */}
+          <h2>📊 Comparación</h2>
 
-        <section id="delitos" className="section">
-
-          <h2>🚨 Delitos Informáticos</h2>
-
-          <div className="card">
-
-            <ul>
-
-              <li>
-                Acceso ilícito a sistemas informáticos.
-              </li>
-
-              <li>
-                Interceptación ilícita de comunicaciones.
-              </li>
-
-              <li>
-                Ataque a integridad de datos.
-              </li>
-
-              <li>
-                Ataque a integridad de sistemas.
-              </li>
-
-            </ul>
-
-          </div>
-
-        </section>
-
-
-
-
-
-        {/* COMPARACION */}
-
-        <section id="comparacion" className="section">
-
-          <h2>📊 Comparación Normativa</h2>
-
-          <div className="card">
+          <div className="tableContainer">
 
             <table>
 
               <thead>
 
-              <tr>
+                <tr>
 
-                <th>Norma</th>
-                <th>Enfoque</th>
-                <th>Aplicación</th>
+                  <th>Norma</th>
+                  <th>Objetivo</th>
+                  <th>Aplicación</th>
 
-              </tr>
+                </tr>
 
               </thead>
 
               <tbody>
 
-              <tr>
+                <tr>
 
-                <td>Ley 21.459</td>
-                <td>Delitos</td>
-                <td>Sanciones</td>
+                  <td>Ley 21.459</td>
+                  <td>Delitos</td>
+                  <td>Sanciones</td>
 
-              </tr>
+                </tr>
 
-              <tr>
+                <tr>
 
-                <td>Ley 19.628</td>
-                <td>Privacidad</td>
-                <td>Datos personales</td>
+                  <td>Ley 19.628</td>
+                  <td>Datos</td>
+                  <td>Privacidad</td>
 
-              </tr>
+                </tr>
 
-              <tr>
+                <tr>
 
-                <td>ISO 27001</td>
-                <td>Seguridad</td>
-                <td>Prevención</td>
+                  <td>ISO 27001</td>
+                  <td>Seguridad</td>
+                  <td>Prevención</td>
 
-              </tr>
+                </tr>
 
               </tbody>
 
@@ -291,127 +199,6 @@ function App() {
 
         </section>
 
-
-
-
-        {/* RESPONSABILIDADES */}
-
-        <section id="responsabilidades" className="section">
-
-          <h2>👨‍⚖ Responsabilidades</h2>
-
-          <div className="card">
-
-            <ul>
-
-              <li>
-                Grupo Guacamaya → Responsabilidad penal.
-              </li>
-
-              <li>
-                EMCO → Responsabilidad administrativa.
-              </li>
-
-              <li>
-                Administradores TI → Posible negligencia.
-              </li>
-
-            </ul>
-
-          </div>
-
-        </section>
-
-
-
-
-
-        {/* DATOS */}
-
-        <section id="datos" className="section">
-
-          <h2>🔒 Datos y Derechos ARCO</h2>
-
-          <div className="card">
-
-            <p>
-
-              Entre los datos afectados se encontraban:
-
-            </p>
-
-            <br/>
-
-            <ul>
-
-              <li>Nombres</li>
-
-              <li>Correos electrónicos</li>
-
-              <li>Cargos</li>
-
-              <li>Información institucional</li>
-
-            </ul>
-
-            <br/>
-
-            <p>
-
-              Los derechos ARCO consideran:
-
-            </p>
-
-            <br/>
-
-            <ul>
-
-              <li>Acceso</li>
-
-              <li>Rectificación</li>
-
-              <li>Cancelación</li>
-
-              <li>Oposición</li>
-
-            </ul>
-
-          </div>
-
-        </section>
-
-
-
-
-        {/* CONCLUSIONES */}
-
-        <section id="conclusiones" className="section">
-
-          <h2>🛡 Conclusiones</h2>
-
-          <div className="card">
-
-            <p>
-
-              El caso EMCO demuestra que incluso instituciones
-              críticas pueden verse afectadas por amenazas
-              digitales avanzadas.
-
-            </p>
-
-            <br/>
-
-            <p>
-
-              La implementación de medidas preventivas,
-              capacitación continua y mejores controles
-              de seguridad puede reducir riesgos futuros.
-
-            </p>
-
-          </div>
-
-        </section>
 
 
         <footer>
@@ -426,4 +213,4 @@ function App() {
   )
 }
 
-export default App;
+export default App
