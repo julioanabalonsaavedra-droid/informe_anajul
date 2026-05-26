@@ -23,7 +23,7 @@ Ejemplos:
 - Cargo dentro de la organización
 - Identificación de funcionarios
 
----
+----
 
 ### Tipo 2: Datos laborales o administrativos
 
