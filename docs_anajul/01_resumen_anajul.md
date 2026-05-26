@@ -22,7 +22,7 @@ Los funcionarios cuyas cuentas de correo e información institucional se encontr
 ### Estado de Chile
 Al tratarse de una institución gubernamental relacionada con seguridad y defensa nacional, el incidente generó consecuencias relevantes para el país.
 
----
+----
 
 ## Desarrollo del incidente
 
