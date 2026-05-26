@@ -2187,159 +2187,467 @@ cultura organizacional orientada a prevención.
 </section>
 
 
-        {/* BITÁCORA IA */}
+{/* BITÁCORA IA */}
 
-        <section
-        id="prompts"
-        className="section"
-        >
+<section
+id="prompts"
+className="section"
+>
 
-        <div className="titleBox">
+<div className="titleBox">
 
-        <span>08</span>
+<span>08</span>
 
-        <h2>
+<h2>
 
-        Bitácora IA y Prompts utilizados
+Bitácora de Uso de Inteligencia Artificial
 
-        </h2>
+</h2>
 
-        </div>
+</div>
 
-        <div className="card">
+<div className="card">
 
-        <p>
+<p>
 
-        Durante el desarrollo del proyecto se utilizó
-        inteligencia artificial como apoyo para investigación,
-        organización y análisis del caso del ciberataque al
-        Estado Mayor Conjunto (EMCO). Las respuestas obtenidas
-        fueron revisadas y ajustadas para mantener coherencia
-        con el caso y los requisitos de la rúbrica.
+Durante el desarrollo del análisis del caso del ataque
+al Estado Mayor Conjunto (EMCO) ocurrido en Chile
+durante el año 2022, se utilizó la herramienta de
+inteligencia artificial ChatGPT como apoyo para
+investigación, organización de información,
+estructuración del informe y desarrollo de la
+aplicación React.
 
-        </p>
+</p>
 
-        <br/>
+<br/>
 
-        <h3>
+<p>
 
-        Prompts utilizados por sección
+La inteligencia artificial fue utilizada como
+herramienta de apoyo y orientación, realizando
+posteriormente revisión y corrección manual
+de la información generada.
 
-        </h3>
+</p>
 
-        <ul>
+<br/>
 
-        <li>
+<h3>
 
-        <strong>Resumen:</strong>
+Registro de prompts utilizados
 
-        "Necesito un caso real de ciberataque ocurrido en Chile que incluya consecuencias, actores involucrados y afectación institucional."
+</h3>
 
-        </li>
+<br/>
 
-        <li>
+<h4>
 
-        <strong>Marco normativo:</strong>
+Sección: Resumen Ejecutivo
 
-        "Indica normas nacionales e internacionales aplicables al caso EMCO y justifica su relación con hechos concretos."
+</h4>
 
-        </li>
+<p>
 
-        <li>
+<strong>Herramienta utilizada:</strong>
 
-        <strong>Delitos:</strong>
+ChatGPT
 
-        "Relaciona artículos específicos de la Ley Nº 21.459 con las acciones realizadas durante el ataque."
+</p>
 
-        </li>
+<p>
 
-        <li>
+<strong>Prompt utilizado:</strong>
 
-        <strong>Comparación:</strong>
+</p>
 
-        "Genera una tabla comparativa entre Ley Nº 21.459, Ley Nº 19.628 e ISO 27001 indicando alcance, objetivo y aplicabilidad."
+<p>
 
-        </li>
+"Necesito un resumen ejecutivo completo sobre
+el hackeo al Estado Mayor Conjunto (EMCO)
+ocurrido en Chile durante el año 2022 indicando
+qué ocurrió, cuándo ocurrió, quiénes participaron
+y cuál fue el impacto generado."
 
-        <li>
+</p>
 
-        <strong>Responsabilidades:</strong>
+<ul>
 
-        "Identifica actores involucrados y diferencia responsabilidades penales, civiles y administrativas."
+<li>Descripción general ataque</li>
 
-        </li>
+<li>Fecha incidente</li>
 
-        <li>
+<li>Actores involucrados</li>
 
-        <strong>Datos:</strong>
+<li>Consecuencias del ataque</li>
 
-        "Clasifica datos comprometidos entre personales y sensibles e identifica derechos ARCO afectados."
+</ul>
 
-        </li>
+<p>
 
-        <li>
+<strong>Correcciones realizadas:</strong>
 
-        <strong>Conclusiones:</strong>
+Se reorganizó información para separar actores,
+impacto y desarrollo del incidente.
 
-        "Genera conclusiones y recomendaciones sobre medidas preventivas para reducir riesgos similares."
+</p>
 
-        </li>
+<p>
 
-        </ul>
+<strong>Justificación:</strong>
 
-        <br/>
+La estructura inicial contenía información mezclada.
 
-        <h3>
+</p>
 
-        Correcciones realizadas
+<br/>
 
-        </h3>
 
-        <ul>
 
-        <li>
+<h4>
 
-        Inicialmente se generó contenido resumido y fue necesario ampliar información para ajustarse a la rúbrica.
+Sección: Marco normativo
 
-        </li>
+</h4>
 
-        <li>
+<p>
 
-        Se corrigieron responsabilidades legales agregando tipos de responsabilidad y relación con normas.
+<strong>Herramienta utilizada:</strong>
 
-        </li>
+ChatGPT
 
-        <li>
+</p>
 
-        Se agregaron artículos específicos de la Ley Nº 21.459 para mejorar precisión.
+<p>
 
-        </li>
+<strong>Prompt utilizado:</strong>
 
-        <li>
+</p>
 
-        Se reorganizó el contenido para convertir una infografía en un informe completo.
+<p>
 
-        </li>
+"Genera un análisis del marco normativo aplicable
+al caso EMCO utilizando legislación chilena
+e internacional incluyendo Ley 21.459,
+Ley 19.628, Convenio Budapest e ISO 27001."
 
-        </ul>
+</p>
 
-        <br/>
+<ul>
 
-        <h3>
+<li>Identificación leyes nacionales</li>
 
-        Reflexión final sobre IA
+<li>Normativa internacional</li>
 
-        </h3>
+<li>Relación con el caso</li>
 
-        <p>
+</ul>
 
-        La inteligencia artificial fue utilizada como una herramienta de apoyo y no como sustituto del análisis humano. El chatbot permitió generar ideas y organizar información, mientras que el usuario actuó como agente activo revisando, corrigiendo y adaptando las respuestas según el contexto del caso y los criterios de evaluación.
+<p>
 
-        </p>
+<strong>Correcciones realizadas:</strong>
 
-        </div>
+Se reforzó justificación de cada normativa.
 
-        </section>
+</p>
+
+<p>
+
+<strong>Justificación:</strong>
+
+La rúbrica exige justificar aplicabilidad.
+
+</p>
+
+<br/>
+
+
+
+
+<h4>
+
+Sección: Delitos informáticos
+
+</h4>
+
+<p>
+
+<strong>Herramienta utilizada:</strong>
+
+ChatGPT
+
+</p>
+
+<p>
+
+<strong>Prompt utilizado:</strong>
+
+</p>
+
+<p>
+
+"Analiza el caso EMCO y relaciona acciones
+del atacante con delitos establecidos
+en la Ley Nº 21.459."
+
+</p>
+
+<ul>
+
+<li>Acceso ilícito</li>
+
+<li>Interceptación ilícita</li>
+
+<li>Ataque integridad datos</li>
+
+<li>Ataque integridad sistemas</li>
+
+</ul>
+
+<p>
+
+<strong>Correcciones realizadas:</strong>
+
+Se modificó relación entre artículos
+y acciones.
+
+</p>
+
+<p>
+
+<strong>Justificación:</strong>
+
+Se validó coherencia legal.
+
+</p>
+
+<br/>
+
+
+
+
+<h4>
+
+Sección: Comparación marcos regulatorios
+
+</h4>
+
+<p>
+
+<strong>Prompt utilizado:</strong>
+
+</p>
+
+<p>
+
+"Crea una tabla comparativa entre
+Ley 21.459, Ley 19.628, Convenio Budapest
+e ISO 27001 indicando alcance,
+sanciones y aplicabilidad."
+
+</p>
+
+<p>
+
+<strong>Correcciones realizadas:</strong>
+
+Mayor detalle aplicabilidad.
+
+</p>
+
+<p>
+
+<strong>Justificación:</strong>
+
+Mayor profundidad análisis.
+
+</p>
+
+<br/>
+
+
+
+
+<h4>
+
+Sección: Responsabilidades legales
+
+</h4>
+
+<p>
+
+<strong>Prompt utilizado:</strong>
+
+</p>
+
+<p>
+
+"Identifica actores involucrados
+y determina responsabilidades
+penales, civiles y administrativas."
+
+</p>
+
+<p>
+
+<strong>Correcciones realizadas:</strong>
+
+Ajuste clasificación responsabilidades.
+
+</p>
+
+<br/>
+
+
+
+
+<h4>
+
+Sección: Datos personales
+
+</h4>
+
+<p>
+
+<strong>Prompt utilizado:</strong>
+
+</p>
+
+<p>
+
+"Analiza tratamiento de datos personales
+utilizando Ley Nº 19.628 incluyendo
+clasificación y derechos ARCO."
+
+</p>
+
+<p>
+
+<strong>Correcciones realizadas:</strong>
+
+Mayor explicación sobre derechos ARCO.
+
+</p>
+
+<br/>
+
+
+
+
+<h4>
+
+Sección: Conclusiones
+
+</h4>
+
+<p>
+
+<strong>Prompt utilizado:</strong>
+
+</p>
+
+<p>
+
+"Genera conclusiones y recomendaciones
+considerando aspectos técnicos y legales."
+
+</p>
+
+<p>
+
+<strong>Correcciones realizadas:</strong>
+
+Se fortaleció reflexión final.
+
+</p>
+
+<br/>
+
+
+
+
+<h4>
+
+Sección: Desarrollo React
+
+</h4>
+
+<p>
+
+<strong>Prompt utilizado:</strong>
+
+</p>
+
+<p>
+
+"Crea una interfaz React moderna
+basada en el caso EMCO utilizando
+diseño orientado a ciberseguridad."
+
+</p>
+
+<p>
+
+<strong>Correcciones realizadas:</strong>
+
+Se realizaron cambios visuales,
+organización y mejoras diseño.
+
+</p>
+
+<br/>
+
+
+
+<h3>
+
+Reflexión final sobre uso IA
+
+</h3>
+
+<p>
+
+El uso de inteligencia artificial facilitó
+organización de información, generación
+de estructuras iniciales y desarrollo
+de componentes React.
+
+</p>
+
+<br/>
+
+<p>
+
+La herramienta permitió reducir tiempos
+de búsqueda y organización de contenido.
+
+</p>
+
+<br/>
+
+<p>
+
+Sin embargo, fue necesario revisar
+y corregir información debido a que
+ciertos elementos requerían mayor
+precisión y adaptación a legislación chilena.
+
+</p>
+
+<br/>
+
+<p>
+
+La IA fue utilizada como herramienta
+de apoyo, mientras que la validación
+y decisiones finales fueron realizadas
+manualmente.
+
+</p>
+
+</div>
+
+</section>
 
 
 
