@@ -747,7 +747,6 @@ y disponibilidad de la información.
 
 
         {/* COMPARACIÓN */}
-        {/* COMPARACIÓN */}
 
         <section
         id="comparacion"
@@ -1119,7 +1118,7 @@ className="section"
 
 <h2>
 
-Responsabilidades legales de los actores
+Responsabilidades Legales de los Actores
 
 </h2>
 
@@ -1129,170 +1128,296 @@ Responsabilidades legales de los actores
 
 <p>
 
-La siguiente sección identifica los principales actores
-involucrados dentro del caso del Estado Mayor Conjunto
-(EMCO), diferenciando tipos de responsabilidades y
-normas aplicables según el contexto del incidente.
+En un incidente de ciberseguridad pueden existir
+diversos actores involucrados de manera directa
+o indirecta. Las responsabilidades legales pueden
+clasificarse en responsabilidad penal, civil y
+administrativa dependiendo de las acciones
+realizadas y obligaciones incumplidas.
 
 </p>
 
 <br/>
 
+<p>
+
+En el caso del ataque al Estado Mayor Conjunto
+(EMCO), es posible identificar distintos actores
+que podrían poseer responsabilidades derivadas
+de los hechos ocurridos.
+
+</p>
+
+<br/>
 
 <h3>
 
-Grupo Guacamaya (Atacantes)
+Actor Nº1: Grupo atacante (Guacamaya)
 
 </h3>
+
+<p>
+
+Corresponde al grupo señalado públicamente como
+responsable del acceso no autorizado a los sistemas.
+
+</p>
+
+<br/>
 
 <ul>
 
 <li>
 
-<strong>Tipo:</strong>
-Responsabilidad penal
+<strong>Responsabilidad penal:</strong>
+
+Ley Nº 21.459 sobre Delitos Informáticos.
 
 </li>
 
 <li>
 
-<strong>Norma:</strong>
+<strong>Conductas asociadas:</strong>
+
+Acceso ilícito, obtención ilegal de información,
+interceptación de comunicaciones y extracción
+de datos.
+
+</li>
+
+<li>
+
+<strong>Responsabilidad civil:</strong>
+
+Daños económicos, institucionales y perjuicios
+derivados de exposición de información.
+
+</li>
+
+</ul>
+
+<br/>
+
+
+<h3>
+
+Actor Nº2: Estado Mayor Conjunto (EMCO)
+
+</h3>
+
+<p>
+
+Institución afectada responsable de administrar
+la infraestructura tecnológica comprometida.
+
+</p>
+
+<br/>
+
+<ul>
+
+<li>
+
+<strong>Responsabilidad administrativa:</strong>
+
+Ley Nº 19.628 sobre Protección
+de la Vida Privada.
+
+</li>
+
+<li>
+
+<strong>Obligaciones:</strong>
+
+Protección de información,
+medidas de seguridad y gestión de datos.
+
+</li>
+
+<li>
+
+<strong>Responsabilidad civil:</strong>
+
+Posibles daños asociados a exposición
+de información y tratamiento de datos.
+
+</li>
+
+</ul>
+
+<br/>
+
+
+<h3>
+
+Actor Nº3: Administradores y responsables TI
+
+</h3>
+
+<p>
+
+Personal encargado de administrar infraestructura,
+seguridad informática y sistemas institucionales.
+
+</p>
+
+<br/>
+
+<ul>
+
+<li>
+
+<strong>Responsabilidad administrativa:</strong>
+
+Supervisión de sistemas y gestión
+de vulnerabilidades.
+
+</li>
+
+<li>
+
+<strong>Responsabilidad civil:</strong>
+
+Negligencia, errores o incumplimiento
+de obligaciones.
+
+</li>
+
+</ul>
+
+<br/>
+
+<h3>
+
+Tabla resumen de responsabilidades
+
+</h3>
+
+<div className="tableContainer">
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Actor</th>
+
+<th>Responsabilidad Penal</th>
+
+<th>Responsabilidad Civil</th>
+
+<th>Responsabilidad Administrativa</th>
+
+<th>Norma aplicable</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Grupo Guacamaya</td>
+
+<td>
+Acceso ilícito e interceptación
+</td>
+
+<td>
+Daños ocasionados
+</td>
+
+<td>
+No aplica
+</td>
+
+<td>
 Ley Nº 21.459
+</td>
 
-</li>
-
-<li>
-
-<strong>Artículos aplicables:</strong>
-
-Artículo 2 (Acceso ilícito),
-Artículo 3 (Interceptación ilícita)
-y Artículo 6 (Ataque a integridad de datos).
-
-</li>
-
-<li>
-
-<strong>Justificación:</strong>
-
-Obtuvieron acceso no autorizado a sistemas
-institucionales y extrajeron aproximadamente
-400.000 correos electrónicos.
-
-</li>
-
-</ul>
-
-<br/>
+</tr>
 
 
-<h3>
+<tr>
 
-Estado Mayor Conjunto (EMCO)
+<td>EMCO</td>
 
-</h3>
+<td>
+No aplica directamente
+</td>
 
-<ul>
+<td>
+Daños por exposición
+</td>
 
-<li>
+<td>
+Protección y gestión datos
+</td>
 
-<strong>Tipo:</strong>
-
-Responsabilidad administrativa
-
-</li>
-
-<li>
-
-<strong>Norma:</strong>
-
-Ley Nº 21.663 (Marco de Ciberseguridad)
-
-</li>
-
-<li>
-
-<strong>Artículo aplicable:</strong>
-
-Obligaciones relacionadas con
-protección de infraestructura crítica
-y gestión de incidentes.
-
-</li>
-
-<li>
-
-<strong>Justificación:</strong>
-
-La institución posee responsabilidad
-sobre implementación de controles,
-protección de sistemas y medidas
-preventivas.
-
-</li>
-
-</ul>
-
-<br/>
-
-
-<h3>
-
-Administradores y encargados TI
-
-</h3>
-
-<ul>
-
-<li>
-
-<strong>Tipo:</strong>
-
-Responsabilidad civil y administrativa
-
-</li>
-
-<li>
-
-<strong>Norma:</strong>
-
+<td>
 Ley Nº 19.628
-e ISO 27001
+</td>
 
-</li>
+</tr>
 
-<li>
 
-<strong>Artículo aplicable:</strong>
+<tr>
 
-Ley Nº 19.628 sobre protección
-y tratamiento de datos personales.
+<td>
+Administradores TI
+</td>
 
-</li>
+<td>
+Según participación
+</td>
 
-<li>
+<td>
+Negligencia
+</td>
 
-<strong>Justificación:</strong>
+<td>
+Incumplimiento funciones
+</td>
 
-Podría existir responsabilidad asociada
-a falta de controles, negligencia o
-gestión inadecuada de seguridad.
+<td>
+Normativa interna
+</td>
 
-</li>
+</tr>
 
-</ul>
+</tbody>
+
+</table>
+
+</div>
+
+<br/>
+
+<h3>
+
+Conclusión
+
+</h3>
+
+<p>
+
+El análisis permite observar que un incidente
+de ciberseguridad no afecta únicamente a los
+atacantes, sino también a organizaciones y
+responsables de proteger información crítica.
+
+</p>
 
 <br/>
 
 <p>
 
-La diferenciación entre tipos de
-responsabilidad permite identificar que
-las consecuencias legales no afectan
-únicamente a los atacantes, sino también
-a instituciones y responsables de gestión
-tecnológica dependiendo de sus acciones
-u omisiones.
+Una adecuada gestión de responsabilidades
+permite fortalecer mecanismos de seguridad,
+reducir riesgos y mejorar protección
+de infraestructura tecnológica.
 
 </p>
 
