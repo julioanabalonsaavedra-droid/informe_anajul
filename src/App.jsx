@@ -60,116 +60,248 @@ function App() {
 
 
 
-        {/* RESUMEN */}
+{/* RESUMEN */}
 
-        <section
-        id="resumen"
-        className="section"
-        >
+<section
+id="resumen"
+className="section"
+>
 
-        <div className="titleBox">
+<div className="titleBox">
 
-        <span>01</span>
+<span>01</span>
 
-        <h2>
-        Resumen Ejecutivo
-        </h2>
+<h2>
 
-        </div>
+Resumen Ejecutivo
 
+</h2>
 
-        <div className="card">
+</div>
 
-        <p>
+<div className="card">
 
-        El ciberataque al Estado Mayor Conjunto (EMCO)
-        ocurrido durante septiembre del año 2022
-        corresponde a uno de los incidentes de
-        ciberseguridad más importantes registrados
-        en Chile debido a la cantidad de información
-        comprometida y las consecuencias asociadas
-        a seguridad nacional.
+<p>
 
-        </p>
+El presente análisis aborda el incidente de ciberseguridad
+ocurrido durante el año 2022 que afectó al Estado Mayor
+Conjunto (EMCO) de Chile, organismo perteneciente a las
+Fuerzas Armadas encargado de coordinar operaciones
+militares y estratégicas nacionales.
 
-        <br/>
+</p>
 
-        <p>
+<br/>
 
-        El grupo Guacamaya obtuvo acceso no autorizado
-        a sistemas institucionales pertenecientes
-        al Estado Mayor Conjunto y logró extraer
-        aproximadamente 400.000 correos electrónicos
-        asociados a organismos militares y administrativos.
+<p>
 
-        </p>
+El ataque fue atribuido al grupo de hackers
+<strong> Guacamaya </strong>,
+organización hacktivista reconocida por realizar
+filtraciones masivas de información relacionada con
+instituciones militares y gubernamentales de distintos
+países latinoamericanos.
 
-        <br/>
+</p>
 
-        <p>
+<br/>
 
-        Entre los documentos comprometidos
-        se encontraban:
+<p>
 
-        </p>
+El incidente fue descubierto públicamente durante
+septiembre de 2022 cuando comenzaron a difundirse
+miles de correos electrónicos extraídos desde los
+sistemas internos del EMCO.
 
-        <ul>
+</p>
 
-        <li>
-        Reportes militares
-        </li>
-
-        <li>
-        Información estratégica
-        </li>
-
-        <li>
-        Comunicaciones institucionales
-        </li>
-
-        <li>
-        Documentación reservada
-        </li>
-
-        <li>
-        Información asociada a seguridad
-        </li>
-
-        </ul>
+<br/>
 
 
-        <br/>
+<h3>
 
-        <p>
+Actores involucrados
 
-        Las consecuencias principales del incidente fueron:
+</h3>
 
-        </p>
+<ul>
+
+<li>
+
+<strong>Grupo Guacamaya:</strong>
+
+Responsable del acceso ilícito a sistemas
+informáticos y extracción de información.
+
+</li>
+
+<li>
+
+<strong>Estado Mayor Conjunto (EMCO):</strong>
+
+Institución afectada y responsable de la
+protección de información institucional.
+
+</li>
+
+<li>
+
+<strong>Funcionarios afectados:</strong>
+
+Usuarios cuyos datos y comunicaciones
+pudieron resultar comprometidos.
+
+</li>
+
+<li>
+
+<strong>Estado de Chile:</strong>
+
+Actor impactado debido a riesgos asociados
+a seguridad y defensa nacional.
+
+</li>
+
+</ul>
+
+<br/>
 
 
-        <ul>
+<h3>
 
-        <li>
-        Riesgo para seguridad nacional
-        </li>
+Desarrollo del incidente
 
-        <li>
-        Exposición de datos institucionales
-        </li>
+</h3>
 
-        <li>
-        Investigaciones internas
-        </li>
+<p>
 
-        <li>
-        Impacto en infraestructura crítica
-        </li>
+Los atacantes lograron acceder ilícitamente
+a servidores institucionales y posteriormente
+realizaron extracción masiva de información.
 
-        </ul>
+</p>
 
-        </div>
+<br/>
 
-        </section>
+<p>
+
+Como consecuencia, aproximadamente
+<strong> 400.000 correos electrónicos </strong>
+fueron filtrados públicamente.
+
+</p>
+
+<br/>
+
+<p>
+
+La información comprometida incluyó:
+
+</p>
+
+<ul>
+
+<li>Correos electrónicos institucionales.</li>
+
+<li>Nombres y cargos de funcionarios.</li>
+
+<li>Comunicaciones internas.</li>
+
+<li>Documentos administrativos.</li>
+
+<li>Información estratégica militar.</li>
+
+<li>Archivos adjuntos internos.</li>
+
+</ul>
+
+<br/>
+
+
+<h3>
+
+Impacto del incidente
+
+</h3>
+
+<ul>
+
+<li>
+
+<strong>Impacto operativo:</strong>
+
+Revisión y contención de sistemas afectados.
+
+</li>
+
+<li>
+
+<strong>Confidencialidad:</strong>
+
+Exposición pública de información sensible.
+
+</li>
+
+<li>
+
+<strong>Datos personales:</strong>
+
+Posible afectación de información
+asociada a funcionarios.
+
+</li>
+
+<li>
+
+<strong>Seguridad nacional:</strong>
+
+Riesgo asociado a infraestructura militar.
+
+</li>
+
+<li>
+
+<strong>Impacto reputacional:</strong>
+
+Cuestionamientos sobre medidas de seguridad.
+
+</li>
+
+</ul>
+
+<br/>
+
+
+<h3>
+
+Conclusión del caso
+
+</h3>
+
+<p>
+
+El ataque al Estado Mayor Conjunto constituye
+uno de los incidentes de ciberseguridad más
+relevantes ocurridos en Chile durante los últimos
+años debido al volumen de información comprometida
+y sensibilidad de los datos involucrados.
+
+</p>
+
+<br/>
+
+<p>
+
+Este caso demuestra la importancia de implementar
+medidas robustas de seguridad informática,
+monitoreo continuo, actualización de sistemas y
+protocolos adecuados de protección de información crítica.
+
+</p>
+
+</div>
+
+</section>
 
 
 
