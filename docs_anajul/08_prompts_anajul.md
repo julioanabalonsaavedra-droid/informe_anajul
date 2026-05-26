@@ -6,7 +6,7 @@ Durante el desarrollo del análisis del caso del ataque al Estado Mayor Conjunto
 
 La IA fue utilizada como herramienta de apoyo y orientación, realizando posteriormente revisión y corrección manual de la información obtenida.
 
----
+----
 
 # Registro de prompts utilizados
 
