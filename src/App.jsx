@@ -405,85 +405,342 @@ protocolos adecuados de protección de información crítica.
         </div>
 
         </section>
-                {/* DELITOS */}
+{/* DELITOS */}
 
-        <section
-        id="delitos"
-        className="section"
-        >
+<section
+id="delitos"
+className="section"
+>
 
-        <div className="titleBox">
+<div className="titleBox">
 
-        <span>03</span>
+<span>03</span>
 
-        <h2>
+<h2>
 
-        Tipificación de Delitos Informáticos
+Tipificación de Delitos Informáticos
 
-        </h2>
+</h2>
 
-        </div>
+</div>
 
-        <div className="card">
+<div className="card">
 
-        <p>
+<p>
 
-        De acuerdo con la Ley Nº 21.459 sobre delitos informáticos,
-        las acciones realizadas durante el ataque al Estado Mayor
-        Conjunto pueden asociarse directamente a diversos artículos.
+El ataque informático ocurrido contra el Estado Mayor
+Conjunto (EMCO) durante el año 2022 involucró acciones
+que, bajo la legislación chilena actual, podrían
+constituir diversos delitos informáticos regulados
+por la Ley Nº 21.459.
 
-        </p>
+</p>
 
-        <br/>
+<br/>
 
-        <ul>
+<p>
 
-        <li>
+El objetivo del análisis no busca establecer
+culpabilidad judicial, sino relacionar las acciones
+observadas con delitos tipificados dentro de la
+legislación chilena.
 
-        <strong>Artículo 2 — Acceso ilícito:</strong>
+</p>
 
-        Obtención de acceso no autorizado a sistemas
-        institucionales pertenecientes al EMCO.
+<br/>
 
-        </li>
+<h3>
+
+Delito Nº1: Acceso ilícito a un sistema informático
+
+</h3>
+
+<ul>
+
+<li><strong>Artículo:</strong> Artículo 2</li>
+
+<li><strong>Descripción:</strong>
+Sanciona el acceso no autorizado
+a sistemas informáticos.
+</li>
+
+<li><strong>Acción observada:</strong>
+Ingreso ilícito a servidores
+del Estado Mayor Conjunto.
+</li>
+
+<li><strong>Relación con el caso:</strong>
+Se vulneraron mecanismos
+de seguridad institucional.
+</li>
+
+<li><strong>Posible consecuencia:</strong>
+Acceso sin consentimiento a
+infraestructura tecnológica crítica.
+</li>
+
+</ul>
+
+<br/>
 
 
-        <li>
+<h3>
 
-        <strong>Artículo 3 — Interceptación ilícita:</strong>
+Delito Nº2: Interceptación ilícita de datos
 
-        Obtención y extracción de comunicaciones
-        electrónicas y correos institucionales.
+</h3>
 
-        </li>
+<ul>
+
+<li><strong>Artículo:</strong> Artículo 3</li>
+
+<li><strong>Descripción:</strong>
+Captura u obtención no autorizada
+de información digital.
+</li>
+
+<li><strong>Acción observada:</strong>
+Obtención de aproximadamente
+400.000 correos electrónicos.
+</li>
+
+<li><strong>Relación con el caso:</strong>
+Extracción de comunicaciones privadas.
+</li>
+
+<li><strong>Posible consecuencia:</strong>
+Vulneración a confidencialidad
+de información.
+</li>
+
+</ul>
+
+<br/>
 
 
-        <li>
+<h3>
 
-        <strong>Artículo 6 — Ataque a integridad de datos:</strong>
+Delito Nº3: Ataque a integridad de datos
 
-        Obtención, manipulación y exposición
-        de información almacenada.
+</h3>
 
-        </li>
+<ul>
 
-        </ul>
+<li><strong>Artículo:</strong> Artículo 4</li>
 
-        <br/>
+<li><strong>Descripción:</strong>
+Alteración o afectación
+de datos almacenados digitalmente.
+</li>
 
-        <p>
+<li><strong>Acción observada:</strong>
+Extracción y exposición pública
+de información institucional.
+</li>
 
-        La conducta observada durante el incidente
-        coincide con acciones sancionadas por la legislación
-        chilena debido a la existencia de acceso no autorizado,
-        obtención de información y vulneración
-        de sistemas informáticos.
+<li><strong>Relación con el caso:</strong>
+Pérdida de control sobre
+datos protegidos.
+</li>
 
-        </p>
+<li><strong>Posible consecuencia:</strong>
+Afectación de integridad
+de información institucional.
+</li>
 
-        </div>
+</ul>
 
-        </section>
+<br/>
+
+
+<h3>
+
+Delito Nº4: Ataque a integridad de sistemas
+
+</h3>
+
+<ul>
+
+<li><strong>Artículo:</strong> Artículo 5</li>
+
+<li><strong>Descripción:</strong>
+Acciones que alteran el
+funcionamiento normal de sistemas.
+</li>
+
+<li><strong>Acción observada:</strong>
+Impacto operacional sobre
+infraestructura institucional.
+</li>
+
+<li><strong>Relación con el caso:</strong>
+La institución debió aplicar
+medidas de contención.
+</li>
+
+<li><strong>Posible consecuencia:</strong>
+Compromiso de disponibilidad
+de servicios críticos.
+</li>
+
+</ul>
+
+
+<br/>
+
+<h3>
+
+Relación acción — delito
+
+</h3>
+
+<div className="tableContainer">
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>
+
+Acción realizada
+
+</th>
+
+<th>
+
+Artículo Ley 21.459
+
+</th>
+
+<th>
+
+Delito
+
+</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>
+
+Ingreso sin autorización a servidores
+
+</td>
+
+<td>
+
+Artículo 2
+
+</td>
+
+<td>
+
+Acceso ilícito
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+Obtención de correos electrónicos
+
+</td>
+
+<td>
+
+Artículo 3
+
+</td>
+
+<td>
+
+Interceptación ilícita
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+Extracción masiva de información
+
+</td>
+
+<td>
+
+Artículo 4
+
+</td>
+
+<td>
+
+Ataque a integridad de datos
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+Afectación infraestructura institucional
+
+</td>
+
+<td>
+
+Artículo 5
+
+</td>
+
+<td>
+
+Ataque a integridad de sistemas
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+<br/>
+
+<h3>
+
+Conclusión
+
+</h3>
+
+<p>
+
+El análisis demuestra que un mismo
+incidente puede involucrar múltiples
+delitos informáticos simultáneamente,
+afectando confidencialidad, integridad
+y disponibilidad de la información.
+
+</p>
+
+</div>
+
+</section>
 
 
 
