@@ -6,7 +6,7 @@ El ataque informático ocurrido contra el Estado Mayor Conjunto (EMCO) durante e
 
 Aunque el incidente fue atribuido al grupo Guacamaya, el presente análisis no busca determinar culpabilidad judicial, sino establecer una relación entre las acciones observadas y los delitos tipificados en la legislación chilena.
 
----
+----
 
 ## Delito N°1: Acceso ilícito a un sistema informático
 
