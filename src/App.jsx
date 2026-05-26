@@ -1442,7 +1442,7 @@ className="section"
 
 <h2>
 
-Tratamiento de Datos Personales (Ley Nº 19.628)
+Tratamiento de Datos Personales
 
 </h2>
 
@@ -1452,11 +1452,33 @@ Tratamiento de Datos Personales (Ley Nº 19.628)
 
 <p>
 
-Durante el incidente sufrido por el Estado Mayor
-Conjunto (EMCO), la filtración de correos y documentos
-institucionales pudo comprometer distintos tipos de
-datos personales asociados a funcionarios y personas
-relacionadas con organismos militares.
+El ataque informático sufrido por el Estado Mayor
+Conjunto (EMCO) durante el año 2022 produjo una
+filtración masiva de información institucional y
+comunicaciones internas.
+
+</p>
+
+<br/>
+
+<p>
+
+Debido a la naturaleza de los datos comprometidos,
+resulta necesario analizar el tratamiento de dicha
+información considerando la Ley Nº 19.628 sobre
+Protección de la Vida Privada y los derechos
+asociados a los titulares de datos personales.
+
+</p>
+
+<br/>
+
+<p>
+
+La legislación chilena establece principios destinados
+a proteger información relacionada con personas
+naturales, regulando recopilación, almacenamiento y
+tratamiento de estos datos.
 
 </p>
 
@@ -1464,172 +1486,375 @@ relacionadas con organismos militares.
 
 <h3>
 
-Datos personales identificados
-(Ley Nº 19.628 Artículo 2 letra f)
+Tipos de datos comprometidos en el incidente
 
 </h3>
 
+<br/>
+
+<h4>
+
+Tipo 1: Datos de identificación personal
+
+</h4>
+
+<p>
+
+Corresponden a información que permite identificar
+a una persona.
+
+</p>
+
 <ul>
 
-<li>
-
-Nombres y apellidos de funcionarios.
-
-</li>
-
-<li>
-
-Correos electrónicos institucionales.
-
-</li>
-
-<li>
-
-Cargos y funciones desempeñadas.
-
-</li>
-
-<li>
-
-Números telefónicos.
-
-</li>
-
-<li>
-
-Identificación institucional.
-
-</li>
-
-<li>
-
-Información asociada a comunicaciones internas.
-
-</li>
+<li>Nombre completo</li>
+<li>Correo electrónico institucional</li>
+<li>Cargo dentro de la organización</li>
+<li>Identificación de funcionarios</li>
 
 </ul>
 
 <br/>
 
+<h4>
 
-<h3>
+Tipo 2: Datos laborales o administrativos
 
-Datos sensibles identificados
-(Ley Nº 19.628 Artículo 2 letra g)
+</h4>
 
-</h3>
+<p>
+
+Corresponden a información asociada a actividades y
+funciones desempeñadas dentro de una organización.
+
+</p>
 
 <ul>
 
-<li>
-
-Información médica eventualmente registrada.
-
-</li>
-
-<li>
-
-Información relacionada con seguridad nacional.
-
-</li>
-
-<li>
-
-Datos biométricos
-(si existieran sistemas de autenticación).
-
-</li>
-
-<li>
-
-Información asociada a antecedentes personales sensibles.
-
-</li>
+<li>Puestos de trabajo</li>
+<li>Comunicaciones institucionales</li>
+<li>Funciones asignadas</li>
+<li>Información organizacional</li>
 
 </ul>
 
 <br/>
 
+<h4>
+
+Tipo 3: Información estratégica e institucional
+
+</h4>
+
+<p>
+
+Corresponde a información utilizada internamente
+por organismos públicos.
+
+</p>
+
+<ul>
+
+<li>Documentos internos</li>
+<li>Comunicaciones reservadas</li>
+<li>Información administrativa</li>
+<li>Archivos institucionales</li>
+
+</ul>
+
+<br/>
 
 <h3>
 
-Derechos ARCO afectados
+Clasificación de datos: personales y sensibles
+
+</h3>
+
+<br/>
+
+<h4>
+
+Datos personales
+
+</h4>
+
+<p>
+
+Son aquellos relativos a cualquier información
+concerniente a personas naturales identificadas
+o identificables.
+
+</p>
+
+<ul>
+
+<li>Nombre completo</li>
+<li>Correo electrónico</li>
+<li>Cargo</li>
+<li>Información laboral</li>
+
+</ul>
+
+<br/>
+
+<h4>
+
+Datos sensibles
+
+</h4>
+
+<p>
+
+Son datos relacionados con características o
+circunstancias personales que requieren
+mayor protección.
+
+</p>
+
+<ul>
+
+<li>Información médica contenida en documentos</li>
+<li>Información privada de funcionarios</li>
+<li>Información asociada a seguridad nacional</li>
+<li>Datos reservados</li>
+
+</ul>
+
+<br/>
+
+<h3>
+
+Derechos ARCO aplicables al caso
 
 </h3>
 
 <p>
 
 Los derechos ARCO corresponden a mecanismos
-establecidos por la Ley Nº 19.628 que permiten
-a las personas ejercer control sobre sus datos.
+que permiten a los titulares ejercer control
+sobre sus datos personales.
 
 </p>
 
-<br/>
-
 <ul>
 
-<li>
-
-<strong>Acceso:</strong>
-
-Permite conocer qué información personal
-está siendo tratada.
-
-</li>
-
-<li>
-
-<strong>Rectificación:</strong>
-
-Permite corregir datos incorrectos
-o desactualizados.
-
-</li>
-
-<li>
-
-<strong>Cancelación:</strong>
-
-Permite solicitar eliminación de
-información cuando corresponda.
-
-</li>
-
-<li>
-
-<strong>Oposición:</strong>
-
-Permite impedir utilización de datos
-para determinados fines.
-
-</li>
+<li>Acceso</li>
+<li>Rectificación</li>
+<li>Cancelación</li>
+<li>Oposición</li>
 
 </ul>
 
 <br/>
 
+<h4>Derecho de Acceso</h4>
+
+<p>
+
+Permite conocer qué información existe
+y cómo está siendo utilizada.
+
+</p>
+
+<p><strong>Aplicación:</strong></p>
+
+<ul>
+
+<li>Datos comprometidos</li>
+<li>Tipo de información expuesta</li>
+<li>Alcance de la filtración</li>
+
+</ul>
+
+<p>
+
+<strong>Posible afectación:</strong>
+
+La filtración podría impedir que las personas
+conozcan completamente qué información fue
+comprometida.
+
+</p>
+
+<br/>
+
+<h4>Derecho de Rectificación</h4>
+
+<p>
+
+Permite solicitar modificación de información
+incorrecta o desactualizada.
+
+</p>
+
+<p><strong>Aplicación:</strong></p>
+
+<ul>
+
+<li>Corregir información errónea</li>
+<li>Actualizar registros</li>
+
+</ul>
+
+<p>
+
+<strong>Posible afectación:</strong>
+
+La difusión masiva puede dificultar corrección
+posterior de datos publicados.
+
+</p>
+
+<br/>
+
+<h4>Derecho de Cancelación</h4>
+
+<p>
+
+Permite solicitar eliminación de información
+cuando ya no resulte necesaria.
+
+</p>
+
+<p><strong>Aplicación:</strong></p>
+
+<ul>
+
+<li>Eliminar datos personales difundidos</li>
+
+</ul>
+
+<p>
+
+<strong>Posible afectación:</strong>
+
+Una vez publicada, la eliminación total
+puede resultar difícil.
+
+</p>
+
+<br/>
+
+<h4>Derecho de Oposición</h4>
+
+<p>
+
+Permite impedir o limitar tratamiento
+de información personal.
+
+</p>
+
+<p><strong>Aplicación:</strong></p>
+
+<ul>
+
+<li>Evitar usos indebidos de información</li>
+
+</ul>
+
+<p>
+
+<strong>Posible afectación:</strong>
+
+La pérdida de control sobre datos expuestos
+puede dificultar ejercicio efectivo
+de este derecho.
+
+</p>
+
+<br/>
+
 <h3>
 
-Aplicación al caso EMCO
+Tabla resumen
+
+</h3>
+
+<div className="tableContainer">
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Elemento analizado</th>
+<th>Aplicación en el caso</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+<td>Datos personales</td>
+<td>Nombres, correos electrónicos y cargos</td>
+</tr>
+
+<tr>
+<td>Datos sensibles</td>
+<td>Información privada y estratégica</td>
+</tr>
+
+<tr>
+<td>Derecho de Acceso</td>
+<td>Conocer datos comprometidos</td>
+</tr>
+
+<tr>
+<td>Derecho de Rectificación</td>
+<td>Corregir datos erróneos</td>
+</tr>
+
+<tr>
+<td>Derecho de Cancelación</td>
+<td>Solicitar eliminación de información</td>
+</tr>
+
+<tr>
+<td>Derecho de Oposición</td>
+<td>Impedir usos indebidos de datos</td>
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+<br/>
+
+<h3>
+
+Conclusión
 
 </h3>
 
 <p>
 
-La exposición de información institucional y
-personal genera riesgos asociados a privacidad,
-suplantación de identidad, uso indebido de datos
-y vulneración de derechos establecidos por la Ley
-Nº 19.628. Esto evidencia la importancia de aplicar
-medidas de protección y tratamiento seguro de la
-información almacenada.
+El análisis del tratamiento de datos personales
+permite comprender la importancia de la protección
+de información dentro de organizaciones que administran
+datos asociados a personas.
+
+</p>
+
+<br/>
+
+<p>
+
+La clasificación entre datos personales y sensibles,
+junto con los derechos ARCO, permite fortalecer
+privacidad, seguridad y adecuada gestión
+de la información institucional.
 
 </p>
 
 </div>
 
 </section>
+
                 {/* CONCLUSIONES */}
 
         <section
