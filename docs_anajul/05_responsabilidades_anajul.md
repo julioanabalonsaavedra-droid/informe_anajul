@@ -6,7 +6,7 @@ En un incidente de ciberseguridad pueden existir diversos actores involucrados, 
 
 En el caso del ataque al Estado Mayor Conjunto (EMCO), es posible identificar distintos actores que podrían tener responsabilidades derivadas de los hechos ocurridos.
 
----
+----
 
 ## Actor N°1: Grupo atacante (Guacamaya)
 
