@@ -359,230 +359,179 @@ function App() {
 
         {/* COMPARACIÓN */}
 
-<div className="card">
+        <section
+        id="comparacion"
+        className="section"
+        >
 
-<p>
+        <div className="titleBox">
 
-La siguiente tabla compara distintos marcos regulatorios
-y estándares aplicables al caso del ciberataque al
-Estado Mayor Conjunto (EMCO), considerando alcance,
-sujetos regulados, sanciones y aplicabilidad práctica
-dentro del incidente analizado.
+        <span>04</span>
 
-</p>
+        <h2>
 
-<br/>
+        Comparación de marcos regulatorios
 
-<div className="tableContainer">
+        </h2>
 
-<table>
+        </div>
 
-<thead>
+        <div className="card">
 
-<tr>
+        <p>
 
-<th>Marco</th>
+        La siguiente tabla compara distintos marcos regulatorios
+        y estándares aplicables al caso del ciberataque al
+        Estado Mayor Conjunto (EMCO), considerando alcance,
+        sujetos regulados, sanciones y aplicabilidad práctica
+        dentro del incidente analizado.
 
-<th>Alcance</th>
+        </p>
 
-<th>Sujeto regulado</th>
+        <br/>
 
-<th>Sanciones / Consecuencias</th>
+        <div className="tableContainer">
 
-<th>Aplicabilidad en el caso EMCO</th>
+        <table>
 
-</tr>
+        <thead>
 
-</thead>
+        <tr>
 
-<tbody>
+        <th>Marco</th>
+        <th>Alcance</th>
+        <th>Sujeto regulado</th>
+        <th>Sanciones / Consecuencias</th>
+        <th>Aplicabilidad en el caso EMCO</th>
 
-<tr>
+        </tr>
 
-<td>
+        </thead>
 
-Ley Nº 21.459
+        <tbody>
 
-</td>
+        <tr>
 
-<td>
+        <td>Ley Nº 21.459</td>
 
-Regula delitos informáticos:
-acceso ilícito, interceptación,
-ataque a sistemas y manipulación
-de datos.
+        <td>
+        Regula delitos informáticos:
+        acceso ilícito, interceptación,
+        ataque a sistemas y manipulación de datos.
+        </td>
 
-</td>
+        <td>
+        Personas naturales y responsables
+        de delitos informáticos.
+        </td>
 
-<td>
+        <td>
+        Penas privativas de libertad,
+        multas y sanciones penales.
+        </td>
 
-Personas naturales y responsables
-de delitos informáticos.
+        <td>
+        Aplica directamente por acceso
+        no autorizado y extracción de correos.
+        </td>
 
-</td>
+        </tr>
 
-<td>
+        <tr>
 
-Penas privativas de libertad,
-multas y sanciones penales.
+        <td>Ley Nº 19.628</td>
 
-</td>
+        <td>
+        Protección y tratamiento
+        de datos personales.
+        </td>
 
-<td>
+        <td>
+        Organizaciones públicas y privadas.
+        </td>
 
-Aplica directamente por acceso
-no autorizado y extracción
-de correos electrónicos.
+        <td>
+        Responsabilidad administrativa y
+        protección de derechos.
+        </td>
 
-</td>
+        <td>
+        Aplica por exposición de datos
+        personales en registros y correos.
+        </td>
 
-</tr>
+        </tr>
 
+        <tr>
 
+        <td>Convenio Budapest</td>
 
-<tr>
+        <td>
+        Cooperación internacional frente
+        a delitos informáticos.
+        </td>
 
-<td>
+        <td>
+        Estados firmantes y organismos
+        internacionales.
+        </td>
 
-Ley Nº 19.628
+        <td>
+        Coordinación judicial internacional.
+        </td>
 
-</td>
+        <td>
+        Facilita investigación y cooperación.
+        </td>
 
-<td>
+        </tr>
 
-Protección y tratamiento
-de datos personales.
+        <tr>
 
-</td>
+        <td>ISO 27001</td>
 
-<td>
+        <td>
+        Seguridad y gestión
+        de información.
+        </td>
 
-Organizaciones públicas y privadas
-que administran información.
+        <td>
+        Instituciones públicas y privadas.
+        </td>
 
-</td>
+        <td>
+        No establece sanciones legales.
+        </td>
 
-<td>
+        <td>
+        Permite controles preventivos
+        y gestión de riesgos.
+        </td>
 
-Responsabilidad administrativa
-y protección de derechos.
+        </tr>
 
-</td>
+        </tbody>
 
-<td>
+        </table>
 
-Aplica debido a exposición de
-datos personales contenidos
-en correos y registros.
+        </div>
 
-</td>
+        <br/>
 
-</tr>
+        <p>
 
+        La comparación evidencia que cada
+        marco regulatorio cumple funciones
+        diferentes dentro del caso analizado,
+        permitiendo abordar aspectos penales,
+        administrativos, preventivos y de
+        protección de información.
 
+        </p>
 
-<tr>
+        </div>
 
-<td>
-
-Convenio Budapest
-
-</td>
-
-<td>
-
-Cooperación internacional
-frente a delitos informáticos.
-
-</td>
-
-<td>
-
-Estados firmantes y organismos
-internacionales.
-
-</td>
-
-<td>
-
-Coordinación judicial
-e investigación internacional.
-
-</td>
-
-<td>
-
-Permite cooperación internacional
-para identificación de responsables.
-
-</td>
-
-</tr>
-
-
-
-<tr>
-
-<td>
-
-ISO 27001
-
-</td>
-
-<td>
-
-Seguridad y gestión
-de información.
-
-</td>
-
-<td>
-
-Instituciones públicas y privadas.
-
-</td>
-
-<td>
-
-No aplica sanciones legales;
-establece controles preventivos.
-
-</td>
-
-<td>
-
-Permite implementar medidas
-de prevención y reducción
-de riesgos.
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-</div>
-
-<br/>
-
-<p>
-
-La comparación permite observar
-que cada marco posee una función
-distinta dentro del caso analizado.
-Mientras la Ley Nº 21.459 sanciona
-conductas del atacante, la Ley Nº 19.628
-protege derechos asociados a información
-personal. El Convenio Budapest favorece
-cooperación internacional y la norma
-ISO 27001 permite implementar
-medidas preventivas.
-
-</p>
-
-</div>
+        </section>
 
 
 
