@@ -6,7 +6,7 @@ Los incidentes de ciberseguridad pueden involucrar distintos marcos regulatorios
 
 La siguiente comparación considera distintos marcos aplicables al caso y analiza sus principales características.
 
----
+----
 
 ## Tabla comparativa de marcos regulatorios
 
