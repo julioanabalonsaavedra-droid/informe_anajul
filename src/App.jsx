@@ -358,6 +358,7 @@ function App() {
 
 
         {/* COMPARACIÓN */}
+        {/* COMPARACIÓN */}
 
         <section
         id="comparacion"
@@ -380,15 +381,26 @@ function App() {
 
         <p>
 
-        La siguiente tabla compara distintos marcos regulatorios
-        y estándares aplicables al caso del ciberataque al
-        Estado Mayor Conjunto (EMCO), considerando alcance,
-        sujetos regulados, sanciones y aplicabilidad práctica
-        dentro del incidente analizado.
+        Los incidentes de ciberseguridad pueden involucrar
+        distintos marcos regulatorios dependiendo de la
+        naturaleza del ataque, los datos comprometidos y
+        las organizaciones afectadas.
 
         </p>
 
         <br/>
+
+        <p>
+
+        En el caso del ataque al Estado Mayor Conjunto (EMCO),
+        resulta necesario comparar regulaciones y estándares
+        que permitan abordar delitos informáticos,
+        protección de datos y medidas preventivas.
+
+        </p>
+
+        <br/>
+
 
         <div className="tableContainer">
 
@@ -398,11 +410,17 @@ function App() {
 
         <tr>
 
-        <th>Marco</th>
+        <th>Marco regulatorio</th>
+
         <th>Alcance</th>
-        <th>Sujeto regulado</th>
-        <th>Sanciones / Consecuencias</th>
-        <th>Aplicabilidad en el caso EMCO</th>
+
+        <th>Sanciones o consecuencias</th>
+
+        <th>Sujetos regulados</th>
+
+        <th>Jurisdicción</th>
+
+        <th>Aplicabilidad al caso</th>
 
         </tr>
 
@@ -412,100 +430,128 @@ function App() {
 
         <tr>
 
-        <td>Ley Nº 21.459</td>
-
         <td>
-        Regula delitos informáticos:
-        acceso ilícito, interceptación,
-        ataque a sistemas y manipulación de datos.
+        Ley Nº 21.459 sobre Delitos Informáticos
         </td>
 
         <td>
-        Personas naturales y responsables
-        de delitos informáticos.
+        Delitos cometidos mediante sistemas y medios informáticos
         </td>
 
         <td>
-        Penas privativas de libertad,
-        multas y sanciones penales.
+        Sanciones penales, multas y penas privativas de libertad
         </td>
 
         <td>
-        Aplica directamente por acceso
-        no autorizado y extracción de correos.
-        </td>
-
-        </tr>
-
-        <tr>
-
-        <td>Ley Nº 19.628</td>
-
-        <td>
-        Protección y tratamiento
-        de datos personales.
+        Personas naturales y organizaciones involucradas
+        en delitos informáticos
         </td>
 
         <td>
-        Organizaciones públicas y privadas.
+        Chile
         </td>
 
         <td>
-        Responsabilidad administrativa y
-        protección de derechos.
-        </td>
-
-        <td>
-        Aplica por exposición de datos
-        personales en registros y correos.
+        Aplica directamente debido al acceso ilícito
+        y extracción de información desde sistemas EMCO
         </td>
 
         </tr>
 
+
+
         <tr>
 
-        <td>Convenio Budapest</td>
-
         <td>
-        Cooperación internacional frente
-        a delitos informáticos.
+        Ley Nº 19.628 sobre Protección de Datos Personales
         </td>
 
         <td>
-        Estados firmantes y organismos
-        internacionales.
+        Protección y tratamiento de datos personales
         </td>
 
         <td>
-        Coordinación judicial internacional.
+        Responsabilidades civiles y administrativas
         </td>
 
         <td>
-        Facilita investigación y cooperación.
+        Organizaciones y entidades que administran
+        datos personales
+        </td>
+
+        <td>
+        Chile
+        </td>
+
+        <td>
+        Aplica debido a posible exposición de información
+        de funcionarios afectados
         </td>
 
         </tr>
 
+
+
         <tr>
 
-        <td>ISO 27001</td>
-
         <td>
-        Seguridad y gestión
-        de información.
+        Convenio de Budapest sobre Ciberdelincuencia
         </td>
 
         <td>
-        Instituciones públicas y privadas.
+        Cooperación internacional
+        en investigaciones y delitos tecnológicos
         </td>
 
         <td>
-        No establece sanciones legales.
+        Medidas de cooperación internacional
+        y apoyo judicial
         </td>
 
         <td>
-        Permite controles preventivos
-        y gestión de riesgos.
+        Estados adheridos al convenio
+        </td>
+
+        <td>
+        Internacional
+        </td>
+
+        <td>
+        Aplica debido al carácter transnacional
+        del grupo atacante
+        </td>
+
+        </tr>
+
+
+
+        <tr>
+
+        <td>
+        ISO/IEC 27001
+        </td>
+
+        <td>
+        Gestión y protección
+        de seguridad de información
+        </td>
+
+        <td>
+        No establece sanciones legales;
+        entrega estándares y controles
+        </td>
+
+        <td>
+        Organizaciones públicas y privadas
+        </td>
+
+        <td>
+        Internacional
+        </td>
+
+        <td>
+        Aplica como referencia para prevención
+        y control de riesgos
         </td>
 
         </tr>
@@ -516,22 +562,156 @@ function App() {
 
         </div>
 
+
         <br/>
+
+        <h3>
+
+        Comparación por ejes
+
+        </h3>
+
+        <br/>
+
+        <h4>
+        Alcance
+        </h4>
+
+        <ul>
+
+        <li>
+        La Ley Nº 21.459 se enfoca en delitos informáticos y sanciones penales.
+        </li>
+
+        <li>
+        La Ley Nº 19.628 se centra en protección de datos personales.
+        </li>
+
+        <li>
+        El Convenio Budapest facilita cooperación internacional.
+        </li>
+
+        <li>
+        ISO/IEC 27001 establece controles y buenas prácticas.
+        </li>
+
+        </ul>
+
+        <br/>
+
+
+        <h4>
+
+        Sanciones y consecuencias
+
+        </h4>
+
+        <ul>
+
+        <li>
+        La Ley Nº 21.459 contempla sanciones penales.
+        </li>
+
+        <li>
+        La Ley Nº 19.628 considera responsabilidades administrativas y civiles.
+        </li>
+
+        <li>
+        El Convenio Budapest favorece investigaciones internacionales.
+        </li>
+
+        <li>
+        ISO 27001 aplica medidas preventivas.
+        </li>
+
+        </ul>
+
+
+        <br/>
+
+        <h4>
+
+        Sujetos regulados
+
+        </h4>
+
+        <ul>
+
+        <li>
+        Personas que cometen delitos informáticos.
+        </li>
+
+        <li>
+        Instituciones públicas y privadas.
+        </li>
+
+        <li>
+        Organizaciones responsables de tratamiento de datos.
+        </li>
+
+        <li>
+        Estados participantes de acuerdos internacionales.
+        </li>
+
+        </ul>
+
+
+        <br/>
+
+        <h4>
+
+        Aplicabilidad específica al caso EMCO
+
+        </h4>
+
+        <ul>
+
+        <li>
+        Existió acceso ilícito a sistemas institucionales.
+        </li>
+
+        <li>
+        Se produjo extracción masiva de información.
+        </li>
+
+        <li>
+        Hubo posible exposición de datos personales.
+        </li>
+
+        <li>
+        Participaron actores externos de alcance internacional.
+        </li>
+
+        <li>
+        Se identificaron debilidades en seguridad.
+        </li>
+
+        </ul>
+
+
+        <br/>
+
+        <h3>
+
+        Conclusión
+
+        </h3>
 
         <p>
 
-        La comparación evidencia que cada
-        marco regulatorio cumple funciones
-        diferentes dentro del caso analizado,
-        permitiendo abordar aspectos penales,
-        administrativos, preventivos y de
-        protección de información.
+        El análisis comparativo permite identificar que
+        cada marco regulatorio aborda aspectos específicos
+        asociados a ciberseguridad y protección de la información.
+        La aplicación conjunta de legislación nacional,
+        cooperación internacional y estándares preventivos
+        resulta fundamental para enfrentar incidentes como
+        el ataque al Estado Mayor Conjunto.
 
         </p>
 
         </div>
 
-        </section>
+        </section>  
 
 
 
