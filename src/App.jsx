@@ -359,281 +359,634 @@ function App() {
 
         {/* COMPARACIÓN */}
 
-        <section
-        id="comparacion"
-        className="section"
-        >
+<div className="card">
 
-        <div className="titleBox">
+<p>
 
-        <span>04</span>
+La siguiente tabla compara distintos marcos regulatorios
+y estándares aplicables al caso del ciberataque al
+Estado Mayor Conjunto (EMCO), considerando alcance,
+sujetos regulados, sanciones y aplicabilidad práctica
+dentro del incidente analizado.
 
-        <h2>
+</p>
 
-        Comparación de marcos regulatorios
+<br/>
 
-        </h2>
+<div className="tableContainer">
 
-        </div>
+<table>
 
-        <div className="card">
+<thead>
 
-        <table>
+<tr>
 
-        <thead>
+<th>Marco</th>
 
-        <tr>
+<th>Alcance</th>
 
-        <th>Marco</th>
+<th>Sujeto regulado</th>
 
-        <th>Objetivo</th>
+<th>Sanciones / Consecuencias</th>
 
-        <th>Aplicabilidad</th>
+<th>Aplicabilidad en el caso EMCO</th>
 
-        </tr>
+</tr>
 
-        </thead>
+</thead>
 
+<tbody>
 
-        <tbody>
+<tr>
 
-        <tr>
+<td>
 
-        <td>Ley 21.459</td>
+Ley Nº 21.459
 
-        <td>
+</td>
 
-        Delitos informáticos
+<td>
 
-        </td>
+Regula delitos informáticos:
+acceso ilícito, interceptación,
+ataque a sistemas y manipulación
+de datos.
 
-        <td>
+</td>
 
-        Sanciona acceso ilícito y extracción.
+<td>
 
-        </td>
+Personas naturales y responsables
+de delitos informáticos.
 
-        </tr>
+</td>
 
+<td>
 
+Penas privativas de libertad,
+multas y sanciones penales.
 
-        <tr>
+</td>
 
-        <td>Ley 19.628</td>
+<td>
 
-        <td>
+Aplica directamente por acceso
+no autorizado y extracción
+de correos electrónicos.
 
-        Protección datos personales
+</td>
 
-        </td>
+</tr>
 
-        <td>
 
-        Protege información afectada.
 
-        </td>
+<tr>
 
-        </tr>
+<td>
 
+Ley Nº 19.628
 
-        <tr>
+</td>
 
-        <td>ISO 27001</td>
+<td>
 
-        <td>
+Protección y tratamiento
+de datos personales.
 
-        Gestión seguridad
+</td>
 
-        </td>
+<td>
 
-        <td>
+Organizaciones públicas y privadas
+que administran información.
 
-        Prevención y controles.
+</td>
 
-        </td>
+<td>
 
-        </tr>
+Responsabilidad administrativa
+y protección de derechos.
 
-        </tbody>
+</td>
 
-        </table>
+<td>
 
+Aplica debido a exposición de
+datos personales contenidos
+en correos y registros.
 
-        <br/>
+</td>
 
-        <p>
+</tr>
 
-        La comparación evidencia que cada marco
-        posee un enfoque distinto. Mientras la Ley
-        21.459 establece sanciones penales, la Ley
-        19.628 protege derechos asociados a datos
-        personales y la ISO 27001 incorpora medidas
-        preventivas.
 
-        </p>
 
-        </div>
+<tr>
 
-        </section>
+<td>
 
+Convenio Budapest
 
+</td>
 
+<td>
 
+Cooperación internacional
+frente a delitos informáticos.
 
-        {/* RESPONSABILIDADES */}
+</td>
 
-        <section
-        id="responsabilidades"
-        className="section"
-        >
+<td>
 
-        <div className="titleBox">
+Estados firmantes y organismos
+internacionales.
 
-        <span>05</span>
+</td>
 
-        <h2>
+<td>
 
-        Responsabilidades legales
+Coordinación judicial
+e investigación internacional.
 
-        </h2>
+</td>
 
-        </div>
+<td>
 
-        <div className="card">
+Permite cooperación internacional
+para identificación de responsables.
 
-        <ul>
+</td>
 
-        <li>
+</tr>
 
-        <strong>Grupo Guacamaya:</strong>
 
-        Responsabilidad penal debido
-        a acceso ilícito y obtención
-        de información.
 
-        </li>
+<tr>
 
+<td>
 
-        <li>
+ISO 27001
 
-        <strong>Estado Mayor Conjunto:</strong>
+</td>
 
-        Responsabilidad administrativa
-        relacionada con medidas
-        de protección y seguridad.
+<td>
 
-        </li>
+Seguridad y gestión
+de información.
 
+</td>
 
-        <li>
+<td>
 
-        <strong>Administradores TI:</strong>
+Instituciones públicas y privadas.
 
-        Posibles responsabilidades
-        civiles y administrativas
-        relacionadas con controles
-        internos.
+</td>
 
-        </li>
+<td>
 
-        </ul>
+No aplica sanciones legales;
+establece controles preventivos.
 
-        </div>
+</td>
 
-        </section>
+<td>
 
+Permite implementar medidas
+de prevención y reducción
+de riesgos.
 
+</td>
 
+</tr>
 
+</tbody>
 
-        {/* DATOS */}
+</table>
 
-        <section
-        id="datos"
-        className="section"
-        >
+</div>
 
-        <div className="titleBox">
+<br/>
 
-        <span>06</span>
+<p>
 
-        <h2>
+La comparación permite observar
+que cada marco posee una función
+distinta dentro del caso analizado.
+Mientras la Ley Nº 21.459 sanciona
+conductas del atacante, la Ley Nº 19.628
+protege derechos asociados a información
+personal. El Convenio Budapest favorece
+cooperación internacional y la norma
+ISO 27001 permite implementar
+medidas preventivas.
 
-        Tratamiento de Datos Personales
+</p>
 
-        </h2>
+</div>
 
-        </div>
 
-        <div className="card">
 
-        <h3>
 
-        Datos comprometidos
 
-        </h3>
+{/* RESPONSABILIDADES */}
 
-        <ul>
+<section
+id="responsabilidades"
+className="section"
+>
 
-        <li>
-        Correos electrónicos
-        </li>
+<div className="titleBox">
 
-        <li>
-        Nombres funcionarios
-        </li>
+<span>05</span>
 
-        <li>
-        Cargos institucionales
-        </li>
+<h2>
 
-        </ul>
+Responsabilidades legales de los actores
 
+</h2>
 
-        <br/>
+</div>
 
-        <h3>
+<div className="card">
 
-        Clasificación
+<p>
 
-        </h3>
+La siguiente sección identifica los principales actores
+involucrados dentro del caso del Estado Mayor Conjunto
+(EMCO), diferenciando tipos de responsabilidades y
+normas aplicables según el contexto del incidente.
 
-        <ul>
+</p>
 
-        <li>
-        Datos personales
-        </li>
+<br/>
 
-        <li>
-        Datos sensibles
-        </li>
 
-        </ul>
+<h3>
 
+Grupo Guacamaya (Atacantes)
 
-        <br/>
+</h3>
 
-        <h3>
+<ul>
 
-        Derechos ARCO afectados
+<li>
 
-        </h3>
+<strong>Tipo:</strong>
+Responsabilidad penal
 
-        <ul>
+</li>
 
-        <li>Acceso</li>
+<li>
 
-        <li>Rectificación</li>
+<strong>Norma:</strong>
+Ley Nº 21.459
 
-        <li>Cancelación</li>
+</li>
 
-        <li>Oposición</li>
+<li>
 
-        </ul>
+<strong>Artículos aplicables:</strong>
 
-        </div>
+Artículo 2 (Acceso ilícito),
+Artículo 3 (Interceptación ilícita)
+y Artículo 6 (Ataque a integridad de datos).
 
-        </section>
+</li>
+
+<li>
+
+<strong>Justificación:</strong>
+
+Obtuvieron acceso no autorizado a sistemas
+institucionales y extrajeron aproximadamente
+400.000 correos electrónicos.
+
+</li>
+
+</ul>
+
+<br/>
+
+
+<h3>
+
+Estado Mayor Conjunto (EMCO)
+
+</h3>
+
+<ul>
+
+<li>
+
+<strong>Tipo:</strong>
+
+Responsabilidad administrativa
+
+</li>
+
+<li>
+
+<strong>Norma:</strong>
+
+Ley Nº 21.663 (Marco de Ciberseguridad)
+
+</li>
+
+<li>
+
+<strong>Artículo aplicable:</strong>
+
+Obligaciones relacionadas con
+protección de infraestructura crítica
+y gestión de incidentes.
+
+</li>
+
+<li>
+
+<strong>Justificación:</strong>
+
+La institución posee responsabilidad
+sobre implementación de controles,
+protección de sistemas y medidas
+preventivas.
+
+</li>
+
+</ul>
+
+<br/>
+
+
+<h3>
+
+Administradores y encargados TI
+
+</h3>
+
+<ul>
+
+<li>
+
+<strong>Tipo:</strong>
+
+Responsabilidad civil y administrativa
+
+</li>
+
+<li>
+
+<strong>Norma:</strong>
+
+Ley Nº 19.628
+e ISO 27001
+
+</li>
+
+<li>
+
+<strong>Artículo aplicable:</strong>
+
+Ley Nº 19.628 sobre protección
+y tratamiento de datos personales.
+
+</li>
+
+<li>
+
+<strong>Justificación:</strong>
+
+Podría existir responsabilidad asociada
+a falta de controles, negligencia o
+gestión inadecuada de seguridad.
+
+</li>
+
+</ul>
+
+<br/>
+
+<p>
+
+La diferenciación entre tipos de
+responsabilidad permite identificar que
+las consecuencias legales no afectan
+únicamente a los atacantes, sino también
+a instituciones y responsables de gestión
+tecnológica dependiendo de sus acciones
+u omisiones.
+
+</p>
+
+</div>
+
+</section>
+
+
+
+
+
+{/* DATOS */}
+
+<section
+id="datos"
+className="section"
+>
+
+<div className="titleBox">
+
+<span>06</span>
+
+<h2>
+
+Tratamiento de Datos Personales (Ley Nº 19.628)
+
+</h2>
+
+</div>
+
+<div className="card">
+
+<p>
+
+Durante el incidente sufrido por el Estado Mayor
+Conjunto (EMCO), la filtración de correos y documentos
+institucionales pudo comprometer distintos tipos de
+datos personales asociados a funcionarios y personas
+relacionadas con organismos militares.
+
+</p>
+
+<br/>
+
+<h3>
+
+Datos personales identificados
+(Ley Nº 19.628 Artículo 2 letra f)
+
+</h3>
+
+<ul>
+
+<li>
+
+Nombres y apellidos de funcionarios.
+
+</li>
+
+<li>
+
+Correos electrónicos institucionales.
+
+</li>
+
+<li>
+
+Cargos y funciones desempeñadas.
+
+</li>
+
+<li>
+
+Números telefónicos.
+
+</li>
+
+<li>
+
+Identificación institucional.
+
+</li>
+
+<li>
+
+Información asociada a comunicaciones internas.
+
+</li>
+
+</ul>
+
+<br/>
+
+
+<h3>
+
+Datos sensibles identificados
+(Ley Nº 19.628 Artículo 2 letra g)
+
+</h3>
+
+<ul>
+
+<li>
+
+Información médica eventualmente registrada.
+
+</li>
+
+<li>
+
+Información relacionada con seguridad nacional.
+
+</li>
+
+<li>
+
+Datos biométricos
+(si existieran sistemas de autenticación).
+
+</li>
+
+<li>
+
+Información asociada a antecedentes personales sensibles.
+
+</li>
+
+</ul>
+
+<br/>
+
+
+<h3>
+
+Derechos ARCO afectados
+
+</h3>
+
+<p>
+
+Los derechos ARCO corresponden a mecanismos
+establecidos por la Ley Nº 19.628 que permiten
+a las personas ejercer control sobre sus datos.
+
+</p>
+
+<br/>
+
+<ul>
+
+<li>
+
+<strong>Acceso:</strong>
+
+Permite conocer qué información personal
+está siendo tratada.
+
+</li>
+
+<li>
+
+<strong>Rectificación:</strong>
+
+Permite corregir datos incorrectos
+o desactualizados.
+
+</li>
+
+<li>
+
+<strong>Cancelación:</strong>
+
+Permite solicitar eliminación de
+información cuando corresponda.
+
+</li>
+
+<li>
+
+<strong>Oposición:</strong>
+
+Permite impedir utilización de datos
+para determinados fines.
+
+</li>
+
+</ul>
+
+<br/>
+
+<h3>
+
+Aplicación al caso EMCO
+
+</h3>
+
+<p>
+
+La exposición de información institucional y
+personal genera riesgos asociados a privacidad,
+suplantación de identidad, uso indebido de datos
+y vulneración de derechos establecidos por la Ley
+Nº 19.628. Esto evidencia la importancia de aplicar
+medidas de protección y tratamiento seguro de la
+información almacenada.
+
+</p>
+
+</div>
+
+</section>
                 {/* CONCLUSIONES */}
 
         <section
@@ -911,7 +1264,7 @@ function App() {
 
         {/* FOOTER */}
 
-        <footer>
+        <footer className="footer">
 
         <p>
 
@@ -927,6 +1280,27 @@ function App() {
         ciberseguridad y delitos informáticos.
 
         </p>
+
+        <div className="footerGithub">
+
+        <span>
+
+        Encuéntrame en GitHub
+
+        </span>
+
+        <a
+        href="https://github.com/julioanabalonsaavedra-droid"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="githubBtn"
+        >
+
+        🐙 github.com/julioanabalonsaavedra-droid
+
+        </a>
+
+        </div>
 
         </footer>
 
