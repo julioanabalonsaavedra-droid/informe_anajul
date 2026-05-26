@@ -2,300 +2,280 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="container">
+    <main className="app">
 
-      {/* Encabezado */}
+      <div className="container">
 
-      <div className="hero">
+        <header className="hero">
 
-        <h1>
-          🚨 Ciberataque al <br />
-          Estado Mayor Conjunto (EMCO)
-        </h1>
+          <h1>
+            🚨 Ciberataque al Estado Mayor Conjunto (EMCO)
+          </h1>
 
-        <p>
-          Análisis legal y de ciberseguridad del incidente ocurrido en Chile durante 2022
-        </p>
+          <p>
+            Análisis legal, técnico y de ciberseguridad
+            del incidente ocurrido en Chile durante 2022
+          </p>
+
+        </header>
+
+        <nav className="nav">
+
+          <a href="#resumen">Resumen</a>
+          <a href="#marco">Marco</a>
+          <a href="#delitos">Delitos</a>
+          <a href="#comparacion">Comparación</a>
+          <a href="#responsabilidades">Responsabilidades</a>
+          <a href="#datos">Datos</a>
+          <a href="#conclusiones">Conclusiones</a>
+
+        </nav>
+
+
+
+        <section id="resumen" className="section">
+
+          <h2>📌 Resumen Ejecutivo</h2>
+
+          <div className="card">
+
+            <p>
+              Durante septiembre de 2022 el Estado Mayor Conjunto
+              sufrió un ciberataque atribuido al grupo Guacamaya.
+
+              Los atacantes obtuvieron acceso no autorizado a sistemas
+              institucionales y lograron filtrar aproximadamente
+              400.000 correos electrónicos.
+            </p>
+
+          </div>
+
+        </section>
+
+
+
+        <section id="marco" className="section">
+
+          <h2>⚖ Marco Normativo</h2>
+
+          <div className="grid">
+
+            <div className="card">
+
+              <h3>Ley 21.459</h3>
+
+              <p>
+                Regula delitos informáticos en Chile.
+              </p>
+
+            </div>
+
+            <div className="card">
+
+              <h3>Ley 19.628</h3>
+
+              <p>
+                Protección de datos personales.
+              </p>
+
+            </div>
+
+            <div className="card">
+
+              <h3>Convenio Budapest</h3>
+
+              <p>
+                Cooperación internacional.
+              </p>
+
+            </div>
+
+            <div className="card">
+
+              <h3>ISO 27001</h3>
+
+              <p>
+                Gestión de seguridad.
+              </p>
+
+            </div>
+
+          </div>
+
+        </section>
+
+
+
+
+        <section id="delitos" className="section">
+
+          <h2>🚨 Delitos asociados</h2>
+
+          <ul>
+
+            <li>Acceso ilícito a sistemas</li>
+
+            <li>Interceptación ilícita</li>
+
+            <li>Ataque a integridad de datos</li>
+
+            <li>Ataque a integridad de sistemas</li>
+
+          </ul>
+
+        </section>
+
+
+
+        <section id="comparacion" className="section">
+
+          <h2>📊 Comparación</h2>
+
+          <table>
+
+            <thead>
+
+              <tr>
+
+                <th>Norma</th>
+
+                <th>Objetivo</th>
+
+                <th>Aplicación</th>
+
+              </tr>
+
+            </thead>
+
+            <tbody>
+
+              <tr>
+
+                <td>Ley 21.459</td>
+
+                <td>Delitos</td>
+
+                <td>Sanciones</td>
+
+              </tr>
+
+              <tr>
+
+                <td>Ley 19.628</td>
+
+                <td>Datos</td>
+
+                <td>Privacidad</td>
+
+              </tr>
+
+              <tr>
+
+                <td>ISO 27001</td>
+
+                <td>Seguridad</td>
+
+                <td>Prevención</td>
+
+              </tr>
+
+            </tbody>
+
+          </table>
+
+        </section>
+
+
+
+
+        <section id="responsabilidades" className="section">
+
+          <h2>👨‍⚖ Responsabilidades</h2>
+
+          <div className="card">
+
+            <ul>
+
+              <li>Grupo Guacamaya → Responsabilidad penal</li>
+
+              <li>EMCO → Responsabilidad administrativa</li>
+
+              <li>Administradores TI → Posible negligencia</li>
+
+            </ul>
+
+          </div>
+
+        </section>
+
+
+
+        <section id="datos" className="section">
+
+          <h2>🔒 Datos y Derechos ARCO</h2>
+
+          <div className="grid">
+
+            <div className="card">
+
+              <h3>Datos personales</h3>
+
+              <p>Nombres, cargos y correos.</p>
+
+            </div>
+
+            <div className="card">
+
+              <h3>Datos sensibles</h3>
+
+              <p>Información estratégica.</p>
+
+            </div>
+
+            <div className="card">
+
+              <h3>Derechos ARCO</h3>
+
+              <p>
+                Acceso,
+                Rectificación,
+                Cancelación
+                y Oposición.
+              </p>
+
+            </div>
+
+          </div>
+
+        </section>
+
+
+
+        <section id="conclusiones" className="section">
+
+          <h2>🛡 Conclusiones</h2>
+
+          <div className="card">
+
+            <p>
+              Este caso demuestra la importancia
+              de fortalecer medidas de ciberseguridad
+              y protección de información crítica.
+            </p>
+
+          </div>
+
+        </section>
+
+        <footer>
+
+          Julio Anabalón | Proyecto EMCO | React + Vite
+
+        </footer>
 
       </div>
 
-
-      {/* RESUMEN */}
-
-      <div className="card">
-
-        <h2>📌 Resumen Ejecutivo</h2>
-
-        <div className="grid">
-
-          <div className="miniCard">
-
-            <h3>¿Qué ocurrió?</h3>
-
-            <p>
-              El grupo de hackers Guacamaya obtuvo acceso no autorizado
-              a sistemas pertenecientes al Estado Mayor Conjunto (EMCO),
-              logrando extraer y filtrar aproximadamente 400.000 correos
-              electrónicos institucionales.
-            </p>
-
-          </div>
-
-          <div className="miniCard">
-
-            <h3>📅 Fecha</h3>
-
-            <p>
-              Septiembre de 2022
-            </p>
-
-          </div>
-
-          <div className="miniCard">
-
-            <h3>👥 Actores involucrados</h3>
-
-            <p>
-              • Grupo Guacamaya <br/>
-              • Estado Mayor Conjunto <br/>
-              • Funcionarios afectados <br/>
-              • Estado de Chile
-            </p>
-
-          </div>
-
-        </div>
-
-      </div>
-
-
-
-      {/* MARCO */}
-
-      <div className="card">
-
-        <h2>⚖ Marco Normativo</h2>
-
-        <div className="grid">
-
-          <div className="miniCard">
-
-            <h3>Ley Nº 21.459</h3>
-
-            <p>
-              Sanciona delitos informáticos como acceso ilícito,
-              interceptación y manipulación de información.
-            </p>
-
-          </div>
-
-
-          <div className="miniCard">
-
-            <h3>Ley Nº 19.628</h3>
-
-            <p>
-              Protege datos personales y privacidad de personas afectadas.
-            </p>
-
-          </div>
-
-
-          <div className="miniCard">
-
-            <h3>Convenio Budapest</h3>
-
-            <p>
-              Facilita cooperación internacional frente a ciberdelitos.
-            </p>
-
-          </div>
-
-
-          <div className="miniCard">
-
-            <h3>ISO 27001</h3>
-
-            <p>
-              Estándar internacional para gestión de seguridad.
-            </p>
-
-          </div>
-
-        </div>
-
-      </div>
-
-
-
-      {/* DELITOS */}
-
-      <div className="card">
-
-        <h2>🚨 Delitos Asociados</h2>
-
-        <div className="grid">
-
-          <div className="miniCard">
-
-            <h3>Acceso ilícito</h3>
-
-            <p>
-              Ingreso no autorizado a servidores institucionales.
-            </p>
-
-          </div>
-
-          <div className="miniCard">
-
-            <h3>Interceptación ilícita</h3>
-
-            <p>
-              Obtención de comunicaciones privadas.
-            </p>
-
-          </div>
-
-          <div className="miniCard">
-
-            <h3>Ataque a integridad de datos</h3>
-
-            <p>
-              Extracción masiva de información protegida.
-            </p>
-
-          </div>
-
-          <div className="miniCard">
-
-            <h3>Ataque a sistemas</h3>
-
-            <p>
-              Afectación a infraestructura tecnológica institucional.
-            </p>
-
-          </div>
-
-        </div>
-
-      </div>
-
-
-
-      {/* RESPONSABILIDADES */}
-
-      <div className="card">
-
-        <h2>👨‍⚖ Responsabilidades</h2>
-
-        <div className="grid">
-
-          <div className="miniCard">
-
-            <h3>Grupo Guacamaya</h3>
-
-            <p>
-              Responsabilidad penal por acceso ilícito y
-              obtención ilegal de información.
-            </p>
-
-          </div>
-
-          <div className="miniCard">
-
-            <h3>EMCO</h3>
-
-            <p>
-              Responsabilidad administrativa relacionada con
-              protección y gestión de información.
-            </p>
-
-          </div>
-
-          <div className="miniCard">
-
-            <h3>Administradores TI</h3>
-
-            <p>
-              Posible responsabilidad por negligencia o
-              debilidad en controles.
-            </p>
-
-          </div>
-
-        </div>
-
-      </div>
-
-
-
-      {/* DATOS */}
-
-      <div className="card">
-
-        <h2>🔒 Datos afectados</h2>
-
-        <div className="grid">
-
-          <div className="miniCard">
-
-            <h3>Datos personales</h3>
-
-            <p>
-              Nombres, correos electrónicos y cargos.
-            </p>
-
-          </div>
-
-          <div className="miniCard">
-
-            <h3>Datos sensibles</h3>
-
-            <p>
-              Información estratégica y reservada.
-            </p>
-
-          </div>
-
-          <div className="miniCard">
-
-            <h3>Derechos ARCO</h3>
-
-            <p>
-              Acceso, Rectificación, Cancelación y Oposición.
-            </p>
-
-          </div>
-
-        </div>
-
-      </div>
-
-
-
-      {/* CONCLUSIÓN */}
-
-      <div className="card">
-
-        <h2>🛡 Recomendaciones Finales</h2>
-
-        <ul>
-
-          <li>Implementar autenticación multifactor</li>
-
-          <li>Actualizar sistemas periódicamente</li>
-
-          <li>Capacitar personal</li>
-
-          <li>Monitorear vulnerabilidades</li>
-
-          <li>Aplicar ISO 27001</li>
-
-        </ul>
-
-      </div>
-
-    </div>
+    </main>
   );
 }
 
