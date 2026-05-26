@@ -6,7 +6,7 @@ El análisis del ataque informático sufrido por el Estado Mayor Conjunto (EMCO)
 
 La complejidad del caso evidencia que los ataques informáticos modernos no generan únicamente consecuencias tecnológicas, sino también efectos legales, administrativos y organizacionales.
 
----
+----
 
 ## Principales conclusiones del análisis
 
